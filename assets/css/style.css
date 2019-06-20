@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+
+
+/*----------------------- the main heading ---*/
+
+#click-text p{
+    text-align: center;
+    font-size: 10px;
+}
+
+#the-ring {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1,
+.h1 {
+    font-size: 4rem;
+    color: #ffc158;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+}
+
+
+
+#the-ring-quote-1st-line,
+#the-ring-quote-2nd-line,
+#the-ring-quote-3rd-line,
+#the-ring-quote-4th-line {
+    display: none;
+    text-align: center;
+    font-size: 40px;
+    color: #ffc158;
+    padding-top: 10px;
+    font-family: 'Tangerine', cursive;
+}
