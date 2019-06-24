@@ -3,30 +3,60 @@
 
 /*----------------------- the main heading ---*/
 
-#click-text p{
+#click-text p {
     text-align: center;
     font-size: 10px;
 }
 
 #the-ring {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
+    filter: grayscale(50%);
+    opacity: 0.4;
+}
+
+.opening-line {
+    text-align: center;
+    font-size: 21px;
+
+
+
+
 }
 
 
 
 h1,
 .h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     color: #ffc158;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     padding-top: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-left: 10px;
     font-family: 'Tangerine', cursive;
+}
+
+
+h2,
+h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Tangerine', cursive;
+    color: #ffc158;
+
+}
+
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -35,10 +65,111 @@ h1,
 #the-ring-quote-2nd-line,
 #the-ring-quote-3rd-line,
 #the-ring-quote-4th-line {
-    display: none;
     text-align: center;
-    font-size: 40px;
+    font-size: 39px;
     color: #ffc158;
     padding-top: 10px;
     font-family: 'Tangerine', cursive;
+    display: none;
+}
+
+
+
+
+/* faction cards*/
+
+#ork-pic,
+#nazgul-pic,
+#ainur-pic,
+#dead-pic,
+#dwarf-pic,
+#elf-pic,
+#hobbit-pic,
+#men-pic,
+#hobbit-pic,
+#ent-pic {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 5px solid #797575;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+/* --------------------- bg image---------------------*/
+
+#opening-bg {
+    background: url(../images/barad-dur.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    padding-bottom: 30px;
+    width: 100vw;
+    min-height: 100vh;
+
+}
+
+
+@media(min-width:713px) {
+    h1,
+    .h1 {
+        font-size: 7rem;
+        color: #ffc158;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-right: 41px;
+        padding-left: 10px;
+        font-family: 'Tangerine', cursive;
+    }
+
+    .opening-line {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 22px;
+        padding-bottom: 57px;
+    }
+
+
+    #the-ring {
+        width: 150px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        filter: grayscale(50%);
+        opacity: 0.4;
+    }
+
+    .opening-line {
+        text-align: center;
+        font-size: 16px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #the-ring-quote-1st-line,
+    #the-ring-quote-2nd-line,
+    #the-ring-quote-3rd-line,
+    #the-ring-quote-4th-line {
+        text-align: center;
+        font-size: 120px;
+        color: #ffc158;
+        padding-top: 10px;
+        font-family: 'Tangerine', cursive;
+        display: none;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-top: 10px;
+
+    }
 }

@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
 
     // start of ring sequence 
@@ -11,8 +11,6 @@ $(document).ready(function() {
             });
         });
     });
-
-    //ring sequence finished
-    
-    
 });
+
+//ring sequence finished
