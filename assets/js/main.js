@@ -14,3 +14,5 @@ $(document).ready(function() {
 });
 
 //ring sequence finished
+
+$('#modal-ork', '').modal('handleUpdate');

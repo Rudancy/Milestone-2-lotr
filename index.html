@@ -3,7 +3,8 @@
 
 <head>
     <title>LOTR Data Dash Board</title>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,338 +23,365 @@
     <!------------------------------------------------------------- header start ---------------------------->
 
     <section id="opening-bg">
-
-        <div>
-            <h1>The Lord of the Rings Data Dash Board</h1>
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <div>
+                    <h1>The Lord of the Rings Data Dash Board</h1>
+                </div>
+            </div>
         </div>
-        <div class="opening-line">
-            <p>click the ring and you shall see....</p>
+        <div class="row justify-content-center">
+            <div class="image-responsive" id="click-text">
+                <div class="opening-line">
+                    <p>click the ring and you shall see....</p>
+                </div>
+            </div>
         </div>
-        <div class="image-responsive" id="click-text">
-
+        <div class="row justify-content-center">
+            <div class="thumbnail the-ring">
+                <div class="image-ring-container">
+                    <!-- this is where the picture of the ring shall go with on click-->
+                    <img class="img-circle " id="the-ring" src="/assets/images/One_ring.jpg" alt="image of the one ring">
+                </div>
+            </div>
         </div>
-        <div class="image-ring-container">
-            <!-- this is where the picture of the ring shall go with on click-->
-            <img class="img-responsive img-circle" id="the-ring" src="/assets/images/One_ring.jpg" alt="image of the one ring">
-        </div>
-       
+        <div class="row justify-content-center">
             <div class="the-ring-text">
                 <p id="the-ring-quote-1st-line">One ring to rule them all,</p>
                 <p id="the-ring-quote-2nd-line">One Ring to find them,</p>
                 <p id="the-ring-quote-3rd-line">One Ring to bring them all,</p>
                 <p id="the-ring-quote-4th-line">and in the darkness bind them</p>
             </div>
-        
+        </div>
     </section>
     <!-------------------------------------------------------------------------- header finished ---------------------------->
 
     <!---------------------------------------------------------------------------character graph setion --------------------->
 
     <section class="character-graph-section">
-
-        <div class="row justify-content-center">
-            <div class="sub-heading">
-                <h2> The Inhabitants Of the Lord of the Rings </h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="sub-heading">
+                    <h2> The Inhabitants Of the Lord of the Rings </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="sub-sub-heading">
+                    <h3>Factions and Realms in the Lord Of The Rings</h3>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="sub-sub-heading">
-                <h3>Factions and Realms in the Lord Of The Rings</h3>
-            </div>
-        </div>
+        <div class="container">
+            <div class="row justify-content-center">
 
-        <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Orcs</h4>
+                    <div class="thumbnail">
+                        <img id="ork-pic" class="thumbnail" data-toggle="modal" data-target="#modal-ork" src="assets/images/factions/orc.jpg"></img>
+                    </div>
+                </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="ork-pic" data-toggle="modal" data-target="#modal-ork" src="assets/images/factions/orc.jpg"></img>
-            </div>
+                <div id="modal-ork" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
 
-            <div id="modal-ork" class="modal" role="dialog">
-                <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
+                                <h4 class="modal-title">Modal Header</h4>
+                            </div>
 
-                            <h4 class="modal-title">Modal Header</h4>
+
+
+                            <div class="container">
+
+
+                                <div class="modal-body">
+                                    <p>The Orcs were bred by Melkor in mockery of the Elves, sometime during the Great Darkness.[4][5] John Howe - Orc Swordsman It is unclear exactly when Orcs were created, but it certainly happened before the War for Sake
+                                        of the Elves in his stronghold of Utumno. Whether the Orcs were at this time a capable fighting force against the host of Valinor is not known. But at least some of them survived this war, probably hidden in the
+                                        deep vaults of Angband, and multiplied, waiting for their master. When Melkor (now known as Morgoth) returned to Middle-earth, he created new hordes of Orcs and invaded Beleriand, where the First Battle of Beleriand
+                                        took place. Orcs also fought in Dagor-nuin-Giliath.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="container-fluid">
+                    </div>
+                </div>
 
 
 
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
+                    <h4>Ainur</h4>
+                    <div class="thumbnail">
+                        <img id="ainur-pic" data-toggle="modal" data-target="#modal-ainur" src="assets/images/factions/Ainur.jpg"></img>
+                    </div>
+                </div>
+                <div id="modal-ainur" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">Ainur</h4>
+                            </div>
                             <div class="modal-body">
-                                <p>The Orcs were bred by Melkor in mockery of the Elves, sometime during the Great Darkness.[4][5] John Howe - Orc Swordsman It is unclear exactly when Orcs were created, but it certainly happened before the War for Sake of
-                                    the Elves in his stronghold of Utumno. Whether the Orcs were at this time a capable fighting force against the host of Valinor is not known. But at least some of them survived this war, probably hidden in the deep vaults
-                                    of Angband, and multiplied, waiting for their master. When Melkor (now known as Morgoth) returned to Middle-earth, he created new hordes of Orcs and invaded Beleriand, where the First Battle of Beleriand took place.
-                                    Orcs also fought in Dagor-nuin-Giliath.</p>
+                                <p>Through the Music of the Ainur, Ilúvatar created a Vision of the World, and explained much of its nature and destiny to them - so the Ainur have much knowledge of the World, but are not omniscient. Then Ilúvatar granted
+                                    the World true being. Many of the Ainur desired to descend into it and form it in readiness for the coming of the Children of Ilúvatar (Elves and Men).[1] Fourteen of these great Ainur became the Valar, or Powers of
+                                    Arda.[2] The fifteenth, Melkor, turned aside from that path and became known as Morgoth, the Dark Enemy.[3] The many lesser Ainur that accompanied the Valar into Arda are known as Maiar.[4] Those Ainur who entered the
+                                    World at its beginning remain bound to it until its end.[1] Though Melkor was eventually thrown into the Void by the others, he is prophesied to return before the end.[5] Little is known of the ultimate future of the
+                                    Ainur, even by themselves, but it is said that, after the great battle at the end of the World, they will make a Second, even greater, Music with the Children of Ilúvatar. The Ainur are angelic beings, nonetheless they
+                                    do possess gender. Those who later descended to Arda took on common male and female forms to appear to the Elves in, and have an inherent male or female gender even when formless. This is because their gender is based
+                                    on their being, which is independent of any physical form they may assume.[1]</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
 
 
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-
-                <h4>faction one</h4>
-                <img id="ainur-pic" data-toggle="modal" data-target="#modal-ainur" src="assets/images/factions/Ainur.jpg"></img>
-
-            </div>
-            <div id="modal-ainur" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Ainur</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Through the Music of the Ainur, Ilúvatar created a Vision of the World, and explained much of its nature and destiny to them - so the Ainur have much knowledge of the World, but are not omniscient. Then Ilúvatar granted the
-                                World true being. Many of the Ainur desired to descend into it and form it in readiness for the coming of the Children of Ilúvatar (Elves and Men).[1] Fourteen of these great Ainur became the Valar, or Powers of Arda.[2]
-                                The fifteenth, Melkor, turned aside from that path and became known as Morgoth, the Dark Enemy.[3] The many lesser Ainur that accompanied the Valar into Arda are known as Maiar.[4] Those Ainur who entered the World at its
-                                beginning remain bound to it until its end.[1] Though Melkor was eventually thrown into the Void by the others, he is prophesied to return before the end.[5] Little is known of the ultimate future of the Ainur, even by
-                                themselves, but it is said that, after the great battle at the end of the World, they will make a Second, even greater, Music with the Children of Ilúvatar. The Ainur are angelic beings, nonetheless they do possess gender.
-                                Those who later descended to Arda took on common male and female forms to appear to the Elves in, and have an inherent male or female gender even when formless. This is because their gender is based on their being, which
-                                is independent of any physical form they may assume.[1]</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Dead</h4>
+                    <div class="thumbnail">
+                        <img id="dead-pic" data-toggle="modal" data-target="#modal-dead" src="assets/images/factions/dead.jpg"></img>
                     </div>
                 </div>
-            </div>
+                <div id="modal-dead" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
 
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
 
-
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="dead-pic" data-toggle="modal" data-target="#modal-dead" src="assets/images/factions/dead.jpg"></img>
-            </div>
-
-            <div id="modal-dead" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Dead</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>They were originally the Men of the Mountains. Their people descended from the Pre-Númenórean peoples related to the Dunlendings and flourished during the Second Age. They had worshipped Sauron in the Dark Years before the
-                                foundation of Gondor. After Gondor was founded, their King swore allegiance to Isildur and the Dúnedain in the last years of the Second Age. But when the time came for them to fulfil their oath, and fight beside Isildur
-                                against their ancient master, they broke their word; they refused to join the Last Alliance, and hid in the mountains. Isildur cursed them to remain without rest until their oath was fulfilled. Waiting for the Heir of Isildur
-                                to appear and grant them the chance to fulfil their word at last, they haunted the caverns beneath the Dwimorberg. It was said that when their wraiths appeared in the valley of Harrowdale that lay in the mountain's shadow,
-                                also known as the Paths of the Dead, it was in times of trouble or death. In the War of the Ring, Isildur's Heir, Aragorn, called on the oathbreakers to fulfil their oath at last. They followed him through the Gondorian
-                                lands south of the White Mountains, and at the port of Pelargir they drove away the allies of Sauron in fear. For their aid, Aragorn granted them their freedom, and they vanished at last from the world.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <h4 class="modal-title">The Dead</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>They were originally the Men of the Mountains. Their people descended from the Pre-Númenórean peoples related to the Dunlendings and flourished during the Second Age. They had worshipped Sauron in the Dark Years before
+                                    the foundation of Gondor. After Gondor was founded, their King swore allegiance to Isildur and the Dúnedain in the last years of the Second Age. But when the time came for them to fulfil their oath, and fight beside
+                                    Isildur against their ancient master, they broke their word; they refused to join the Last Alliance, and hid in the mountains. Isildur cursed them to remain without rest until their oath was fulfilled. Waiting for the
+                                    Heir of Isildur to appear and grant them the chance to fulfil their word at last, they haunted the caverns beneath the Dwimorberg. It was said that when their wraiths appeared in the valley of Harrowdale that lay in
+                                    the mountain's shadow, also known as the Paths of the Dead, it was in times of trouble or death. In the War of the Ring, Isildur's Heir, Aragorn, called on the oathbreakers to fulfil their oath at last. They followed
+                                    him through the Gondorian lands south of the White Mountains, and at the port of Pelargir they drove away the allies of Sauron in fear. For their aid, Aragorn granted them their freedom, and they vanished at last from
+                                    the world.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        </div>
         <!-- first row end -------------------------------------------------------------------->
+        <div class="container">
+            <div class="row justify-content-center">
 
-        <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Dwarves</h4>
+                    <div class="thumbnail">
+                        <img id="dwarf-pic" data-toggle="modal" data-target="#modal-dwarf" src="assets/images/factions/Dwarf.jpg"></img>
+                    </div>
+                </div>
+                <div id="modal-dwarf" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
 
-                <h4>faction one</h4>
-                <img id="dwarf-pic" data-toggle="modal" data-target="#modal-dwarf" src="assets/images/factions/Dwarf.jpg"></img>
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
 
-            </div>
-            <div id="modal-dwarf" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Dwarves</h4>
+                                <h4 class="modal-title">The Dwarves</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>"Since they were to come in the days of the power of Melkor, Aulë made the dwarves strong to endure. Therefore they are stone-hard, stubborn, fast in friendship and in enmity, and they suffer toil and hunger and hurt of
+                                    body more hardily than all other speaking peoples; and they live long, far beyond the span of Men, yet not forever." ― The Silmarillion, "Of Aulë and Yavanna" The Dwarves, or Khazâd in their own tongue, were beings
+                                    of short stature, often friendly with Hobbits although long suspicious of Elves. They were typically blacksmiths and stoneworkers by profession, unrivalled in some of their arts even by the Elves. While there were several
+                                    tribes (Houses) of the Dwarves, the most prominent was that of the Longbeards.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <p>"Since they were to come in the days of the power of Melkor, Aulë made the dwarves strong to endure. Therefore they are stone-hard, stubborn, fast in friendship and in enmity, and they suffer toil and hunger and hurt of body
-                                more hardily than all other speaking peoples; and they live long, far beyond the span of Men, yet not forever." ― The Silmarillion, "Of Aulë and Yavanna" The Dwarves, or Khazâd in their own tongue, were beings of short
-                                stature, often friendly with Hobbits although long suspicious of Elves. They were typically blacksmiths and stoneworkers by profession, unrivalled in some of their arts even by the Elves. While there were several tribes
-                                (Houses) of the Dwarves, the most prominent was that of the Longbeards.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
 
-
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="elf-pic" data-toggle="modal" data-target="#modal-elf" src="assets/images/factions/elf.jpg"></img>
-            </div>
-
-            <div id="modal-elf" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Elves</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Besides being considered more beautiful than men, Elves were also generally taller. Their hair colour varied; but the basic rules were that the Noldor generally had dark hair (brown or black), the Vanyar golden, and the Teleri
-                                silver or dark. Their eyes are usually described as grey. Their lives were counted to begin at conception rather than birth, and though their minds sharpened much earlier in life than in the race of Men, their bodies grew
-                                more slowly. They were considered fully-grown at about a century. They married usually only once in their lives, and their children were often few and far-between. Their most distinguishing characteristic from the Mortal
-                                races was the fact that they were invulnerable to age or disease; unless they were killed by sword or sorrow, they would live to the end of the world. Unlike Men whose fëar (spirits) left Arda when their bodies died, Elves'
-                                fëar were bound to Arda until its ending. If an Elf's hröa (body) died, its fëa would be summoned to the Halls of Mandos, where the Valar could re-embody the Elf in a hröa that was identical to the Elf's previous hröa.
-                                However, if an Elf committed evil acts during their lifetime and refused to repent, the Valar could delay the Elf's re-embodiment, impose conditions on it, or refuse it altogether.[5][6] An Elf could refuse the summons
-                                to Mandos or choose to remain disembodied,[5][7] but the Elf's houseless fëa would still be unable to leave Arda.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Elves</h4>
+                    <div class="thumbnail">
+                        <img id="elf-pic" data-toggle="modal" data-target="#modal-elf" src="assets/images/factions/elf.jpg"></img>
                     </div>
-
                 </div>
-            </div>
 
+                <div id="modal-elf" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
 
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
 
-
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="hobbit-pic" data-toggle="modal" data-target="#modal-hobbit" src="assets/images/factions/hobbit.jpg"></img>
-            </div>
-
-            <div id="modal-hobbit" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">Hobbits</h4>
+                                <h4 class="modal-title">The Elves</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Besides being considered more beautiful than men, Elves were also generally taller. Their hair colour varied; but the basic rules were that the Noldor generally had dark hair (brown or black), the Vanyar golden, and the
+                                    Teleri silver or dark. Their eyes are usually described as grey. Their lives were counted to begin at conception rather than birth, and though their minds sharpened much earlier in life than in the race of Men, their
+                                    bodies grew more slowly. They were considered fully-grown at about a century. They married usually only once in their lives, and their children were often few and far-between. Their most distinguishing characteristic
+                                    from the Mortal races was the fact that they were invulnerable to age or disease; unless they were killed by sword or sorrow, they would live to the end of the world. Unlike Men whose fëar (spirits) left Arda when their
+                                    bodies died, Elves' fëar were bound to Arda until its ending. If an Elf's hröa (body) died, its fëa would be summoned to the Halls of Mandos, where the Valar could re-embody the Elf in a hröa that was identical to the
+                                    Elf's previous hröa. However, if an Elf committed evil acts during their lifetime and refused to repent, the Valar could delay the Elf's re-embodiment, impose conditions on it, or refuse it altogether.[5][6] An Elf
+                                    could refuse the summons to Mandos or choose to remain disembodied,[5][7] but the Elf's houseless fëa would still be unable to leave Arda.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <p>Throughout their history Hobbits had showed unparalleled skill, courage and also endurance and resistance in times of danger and terror. During their Wandering Days Hobbits demonstrated an easiness to adapt to the environments
-                                they visited and adopted the customs and languages of the peoples they were in contact with. In the Shire, they had settled with a closed and comfort-loving lifestyle; they were fond of an unadventurous bucolic life of
-                                farming, eating, smoking pipe-weed,[7] socializing and talking about genealogies. Hobbits also liked to drink ale in inns, and ate at least six meals a day when they could get them. Every Highday and after noon, Hobbits
-                                celebrated a small holiday with evening feasts. [8]</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Hobbits</h4>
+                    <div class="thumbnail">
+                        <img id="hobbit-pic" data-toggle="modal" data-target="#modal-hobbit" src="assets/images/factions/hobbit.jpg"></img>
+                    </div>
+                </div>
+
+                <div id="modal-hobbit" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">Hobbits</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throughout their history Hobbits had showed unparalleled skill, courage and also endurance and resistance in times of danger and terror. During their Wandering Days Hobbits demonstrated an easiness to adapt to the environments
+                                    they visited and adopted the customs and languages of the peoples they were in contact with. In the Shire, they had settled with a closed and comfort-loving lifestyle; they were fond of an unadventurous bucolic life
+                                    of farming, eating, smoking pipe-weed,[7] socializing and talking about genealogies. Hobbits also liked to drink ale in inns, and ate at least six meals a day when they could get them. Every Highday and after noon,
+                                    Hobbits celebrated a small holiday with evening feasts. [8]</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!----------------------------------------------------------------second row end---------------------->
-
-        <div class="row justify-content-center">
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="men-pic" data-toggle="modal" data-target="#modal-men" src="assets/images/factions/men.jpg"></img>
-            </div>
-
-            <div id="modal-men" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">Mortal Men</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>"West, North, and South the children of Men spread and wandered, and their joy was the joy of the morning before the dew is dry, when every leaf is green." ― The Silmarillion, Of Men Men were one of the Kindreds of the Children
-                                of Ilúvatar. Men were called the Secondborn (or the Second Kindred[6]) by the Elves, their Elder brethren, because they were the last of all the incarnate races to come into being. Though they were born after the other
-                                sentient races, Men were destined to inherit and rule Middle-earth.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Men</h4>
+                    <div class="thumbnail">
+                        <img id="men-pic" data-toggle="modal" data-target="#modal-men" src="assets/images/factions/men.jpg"></img>
                     </div>
-
                 </div>
-            </div>
+                <div id="modal-men" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
 
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
 
-
-
-
-
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="nazgul-pic" data-toggle="modal" data-target="#modal-nazgul" src="assets/images/factions/Nazgul.jpg"></img>
-            </div>
-
-            <div id="modal-nazgul" class="modal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Nazgul</h4>
+                                <h4 class="modal-title">Mortal Men</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>"West, North, and South the children of Men spread and wandered, and their joy was the joy of the morning before the dew is dry, when every leaf is green." ― The Silmarillion, Of Men Men were one of the Kindreds of the
+                                    Children of Ilúvatar. Men were called the Secondborn (or the Second Kindred[6]) by the Elves, their Elder brethren, because they were the last of all the incarnate races to come into being. Though they were born after
+                                    the other sentient races, Men were destined to inherit and rule Middle-earth.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <p>Given form only through the attire of black cloaks and hauberks of silver mail, their original form was completely gone and invisible to mortal eyes. Their hypnotic eyes could be plainly distinguished from their dark clothing,
-                                and in a rage they appeared in a hellish fire. Mortal men could not touch them (unless blessed by weapons or tools of the ancient Elves of the First Age or by the Dúnedain, such as the barrow-blade used by Merry on the
-                                Witch-king of Angmar). The Ringwraiths had many weapons, which included long swords of steel and flame, daggers with venomous properties, poisonous darts and black maces of great strength.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
 
 
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>faction one</h4>
-                <img id="ent-pic" data-toggle="modal" data-target="#modal-ent" src="assets/images/factions/ent.jpg"></img>
-            </div>
 
-            <div id="modal-ent" class="modal" role="dialog">
-                <div class="modal-dialog">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-
-                            <h4 class="modal-title">The Ents</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Ents were 14-foot tall creatures like humanoid trees with very thick skin resembling tree bark. They resembled the trees that they shepherded. An individual Ent more or less resembled the specific species of tree that they
-                                typically guarded or honored, to the point of the personality one might expect from that tree.[6] Thus they varied in height and size, colouring, and n number of fingers and toes. For example, Quickbeam guarded rowan trees
-                                and thus looked very much like a rowan. There were trees that were awake or half-awake, and some were entish and Ents could awake or talk with some of them. Treebeard aroused some Huorns to destroy Isengard.[15] Ents were
-                                dwelling in Ent-houses and were nourished by Ent-draughts. They were immortal (although they could be damaged or killed with sufficient force) and along with it, they were deliberate and slow in thought, decision and action.
-                                Their slow, long-winded language reflected this; of other languages they preferred Quenya, which they also spoke in an agglutinating, long-winded way like Entish.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Nazgul</h4>
+                    <div class="thumbnail">
+                        <img id="nazgul-pic" data-toggle="modal" data-target="#modal-nazgul" src="assets/images/factions/Nazgul.jpg"></img>
                     </div>
-
                 </div>
+                <div id="modal-nazgul" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">The Nazgul</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Given form only through the attire of black cloaks and hauberks of silver mail, their original form was completely gone and invisible to mortal eyes. Their hypnotic eyes could be plainly distinguished from their dark clothing,
+                                    and in a rage they appeared in a hellish fire. Mortal men could not touch them (unless blessed by weapons or tools of the ancient Elves of the First Age or by the Dúnedain, such as the barrow-blade used by Merry on
+                                    the Witch-king of Angmar). The Ringwraiths had many weapons, which included long swords of steel and flame, daggers with venomous properties, poisonous darts and black maces of great strength.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h4>Ents</h4>
+                    <div class="thumbnail">
+                        <img id="ent-pic" data-toggle="modal" data-target="#modal-ent" src="assets/images/factions/ent.jpg"></img>
+                    </div>
+                </div>
+                <div id="modal-ent" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">The Ents</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ents were 14-foot tall creatures like humanoid trees with very thick skin resembling tree bark. They resembled the trees that they shepherded. An individual Ent more or less resembled the specific species of tree that they
+                                    typically guarded or honored, to the point of the personality one might expect from that tree.[6] Thus they varied in height and size, colouring, and n number of fingers and toes. For example, Quickbeam guarded rowan
+                                    trees and thus looked very much like a rowan. There were trees that were awake or half-awake, and some were entish and Ents could awake or talk with some of them. Treebeard aroused some Huorns to destroy Isengard.[15]
+                                    Ents were dwelling in Ent-houses and were nourished by Ent-draughts. They were immortal (although they could be damaged or killed with sufficient force) and along with it, they were deliberate and slow in thought, decision
+                                    and action. Their slow, long-winded language reflected this; of other languages they preferred Quenya, which they also spoke in an agglutinating, long-winded way like Entish.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </section>
 
 
