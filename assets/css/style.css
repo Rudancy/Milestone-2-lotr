@@ -108,6 +108,28 @@ img {
     font-size: 1.85rem;
 }
 
+/*------------------------------------- graph styling--------------------------*/
+
+.dc-chart .axis line,
+.dc-chart .axis path {
+    fill: none;
+    stroke: #ffc158;
+    shape-rendering: crispEdges;
+}
+
+g text {
+    fill: #ffc158;
+}
+
+
+g.axis.x text {
+    transform: rotate(-45deg) translate(-60px, 0px);
+}
+
+
+
+
+
 /* faction cards*/
 
 #ork-pic,
@@ -264,8 +286,8 @@ thumbnail img {
         font-family: 'Tangerine', cursive;
     }
     #the-ring {
-        width: 200px;
-        height: 200px;
+        width: 136px;
+        height: 130px;
         margin-left: auto;
         margin-right: auto;
         filter: grayscale(50%);
@@ -278,7 +300,7 @@ thumbnail img {
     #the-ring-quote-3rd-line,
     #the-ring-quote-4th-line {
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
         color: #ffc158;
         padding-top: 10px;
         font-family: 'Tangerine', cursive;
