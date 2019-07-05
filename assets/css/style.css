@@ -256,9 +256,8 @@ thumbnail img {
     }
 
     .modal-content p {
-        font-size: 20px;
+        font-size: 14px;
     }
-
     #click-text p {
         text-align: center;
         font-size: 30px;
@@ -305,4 +304,9 @@ thumbnail img {
         padding-top: 10px;
         font-family: 'Tangerine', cursive;
     }
+
+    .modal-content p {
+        font-size: 14px;
+    }
+
 }

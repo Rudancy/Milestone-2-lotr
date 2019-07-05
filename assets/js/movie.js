@@ -155,11 +155,11 @@ function awards(ndx) {
 
     //--------------------------------------------------------grouping function----------------
 
-    var group = noAwards.group().reduceSum(dc.pluck('AcademyAwardWins'));
+    var group = noAwards.group().reduceSum(dc.pluck('AcademyAwardNominations'));
 
     var awardsNominationsByFilm1 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Fellowship of the Ring') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
         }
         else {
             return 0;
@@ -168,7 +168,8 @@ function awards(ndx) {
 
     var awardsNominationsByFilm2 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Two Towers') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
+
         }
         else {
             return 0;
@@ -176,7 +177,7 @@ function awards(ndx) {
     });
     var awardsNominationsByFilm3 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Return of the King') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
         }
         else {
             return 0;
@@ -184,7 +185,7 @@ function awards(ndx) {
     });
     var awardsNominationsByFilm4 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Unexpected Journey') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
         }
         else {
             return 0;
@@ -192,7 +193,7 @@ function awards(ndx) {
     });
     var awardsNominationsByFilm5 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Desolation of Smaug') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
         }
         else {
             return 0;
@@ -200,12 +201,14 @@ function awards(ndx) {
     });
     var awardsNominationsByFilm6 = noAwards.group().reduceSum(function(d) {
         if (d.Name === 'The Battle of the Five Armies') {
-            return +d.AcademyAwardNominations;
+            return +d.AcademyAwardWins;
         }
         else {
             return 0;
         }
     });
+
+
 
     var stackedChart = dc.barChart('#academy');
     stackedChart
@@ -221,10 +224,16 @@ function awards(ndx) {
         .stack(awardsNominationsByFilm6, 'The Battle of the Five Armies')
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .legend(dc.legend().x(400).y(0).itemHeight(15).gap(5));
-    .colors(d3.scale.ordinal().domain(['The Fellowship of the Ring','The Two Towers' ,'The Return of the King' ,'The Unexpected Journey' , 'The Desolation of Smaug','The Battle of the Five Armies' ])
-        .range([])
+//struggle to get colors right- had to play around and just wing it.
+        .colors(d3.scale.ordinal().domain([0,6])
+            .range(['#5896FF','#ffc158','#ffc158']))
+        .renderHorizontalGridLines(true);
 
 
-        stackedChart.margins().right = 100;
-    }
+
+
+
+
+
+    stackedChart.margins().right = 100;
+}
