@@ -40,7 +40,7 @@ function run_time(ndx) {
     dc.barChart('#runtime')
         .width(400)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
         .transitionDuration(500)
@@ -78,7 +78,7 @@ function budgets(ndx) {
     dc.barChart('#budgets')
         .width(400)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
         .transitionDuration(500)
@@ -116,7 +116,7 @@ function revenue(ndx) {
     dc.barChart('#revenue')
         .width(400)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
         .transitionDuration(500)
@@ -224,9 +224,10 @@ function awards(ndx) {
         .stack(awardsNominationsByFilm6, 'The Battle of the Five Armies')
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-//struggle to get colors right- had to play around and just wing it.
-        .colors(d3.scale.ordinal().domain([0,6])
-            .range(['#5896FF','#ffc158','#ffc158']))
+        
+        //struggle to get colors right- had to play around and just wing it.
+        .colors(d3.scale.ordinal().domain([0, 6])
+            .range(['#5896FF', '#ffc158', '#ffc158']))
         .renderHorizontalGridLines(true);
 
 

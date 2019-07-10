@@ -30,6 +30,22 @@
 
 }
 
+
+/*---------------------------------------- pie chart styling----------*/
+
+
+.dc-chart .pie-path{
+    stroke:gold;
+}
+
+.dc-chart .pie-slice.external {
+    fill: #eb0e0e;
+}
+
+
+
+
+
 thumbnail the-ring {
     text-align: center;
 }

@@ -1,9 +1,9 @@
 birth,death,gender,hair,height,name,race,realm,spouse
 ,,Female,,,Adanel,Men,,Belemir
 TA 2978,"February 26 ,3019",Male,Dark (book) Light brown (movie),,Boromir,Men,,
-,"March ,3019",Male,,,Lagduf,Orcs,,
+,"March ,3019",Male,,,Lagduf,Orc,,
 TA 280,TA 515,Male,,,Tarcil,Men,Arnor,Unnamed wife
-,,Male,,,Fire-drake of Gondolin,Dragon,,
+,,Male,,,Fire-drake of Gondolin,Dragons,,
 SA 2709,SA 2962,Male,,,Ar-Adûnakhôr,Men,Númenor,Unnamed wife
 ,,Male,,,Annael,Elves,,
 YT,FA 455,Male,Golden,,Angrod,Elves,,Eldalótë
@@ -66,15 +66,15 @@ TA 2560,TA 2803,Male,,,Farin,Dwarves,,Unnamed wife
 TA 2983,"February 26 ,82",Male,Raven,,Faramir,Men,Minas Ithil,owyn
 ,,,,,Falathar,,,
 ,,,,,Elfstan Fairbairn,,,
-,February 293019,Male,,,Snaga (Two Towers orc),Orcs,,
-,TA 3019,Male,,,Snaga,Orcs,,
+,February 293019,Male,,,Snaga (Two Towers orc),Orc,,
+,TA 3019,Male,,,Snaga,Orc,,
 "Unknown, first appeared in ,TA 2770","November 1 ,TA 2941",Male,,,Smaug,Dragons,Lonely Mountain,
 ,,,,,Seers,,,
 "Late ,Third Age",,Male,,,Robin Smallburrow,Hobbits,,
 TA 570,TA 830,Male,,,Siriondil,Men,Gondor,Unnamed wife
 SA 521,,Female,,,Silmariën,Men,,Elatan
 "Unknown, possibly during the ,First Age","Unknown, possibly TA 3019",Female,,Large and immense,Shelob,Great Spiders,Torech Ungol,
-TA 2050,,Male,,7'1,Shagrat,Black Uruk,Cirith Ungol,
+TA 2050,,Male,,7'1,Shagrat,Orc,Cirith Ungol,
 ,TA 2000,Male,None,,Scatha,Dragons,,
 "Before the creation of ,Arda","March 25 ,3019",Male,Various ,Various until ,Sauron,Maiar,,None
 "Before the creation of ,Arda","3 November ,3019",Male,White,,Saruman,Maiar,"Isengard,Nan Curunír",None
@@ -91,14 +91,14 @@ Fourth Age,,Male,,,Saelon,Men,,
 "about ,FA 430",FA 495,Male,,,Sador,Men,,None known
 SR 1179,,Male,,,Sadoc Brandybuck,Hobbits,,Unnamed wife
 TA 2964,TA 3019,Male,Sandy,"1.22m (4'0"") ",Lotho Sackville-Baggins,Hobbits,,None
-TA 2918,TA 3020,Female,,"1.17m (3'10"")",Lobelia Sackville-Baggins,Hobbit,,Otho Sackville-Baggins
+TA 2918,TA 3020,Female,,"1.17m (3'10"")",Lobelia Sackville-Baggins,Hobbits,,Otho Sackville-Baggins
 ,,,,,Camellia (Sackville) Baggins,,,
 TA 1126,TA 1366,Male,,,Rómendacil II,Men,Gondor,Unnamed wife
 YT,,Male,,,Rúmil (Noldo),Elves,,
 TA 310,TA 541,Male,,,Rómendacil I,Men,Gondor,Unnamed wife
 c. T.A. 2328,,Female,,,Rían (Gondor),Men,,Unnamed husband
 FA 450,FA 473,Female,,,Rían,Men,,Huor
-,,Male,,,Rufus Burrows,Hobbit,,Asphodel Brandybuck
+,,Male,,,Rufus Burrows,Hobbits,,Asphodel Brandybuck
 ,,,,,Ruffian Leader,,,
 ,,Male,,,Rúmil of Lórien,Elves,,
 ,,,,,Rudolph Bolger,,,
@@ -109,12 +109,14 @@ TA 2849,"Late ,Third Age",Male,,,Rowan Greenhand,Hobbits,Shire,Belba Baggins
 ,,,,,Andwise Roper,,,
 ,FA 510,Male,,,Rog,Elves,,
 ,,,,,River-woman,,,
+,February 293019,Male,,,Snaga (Two Towers orc),Orc,,
 "Mid ,First Age",FA 460,Male,,,Ragnor,Men,,
 "Late ,First Age",Late First Age ,Male,,,Ragnir,Men,,
 "Late ,First Age",FA 460,Male,,,Radhruin,Men,,
 ,,,,,Radbug,,,
 "Before the creation of ,Arda",None,Male,Brown-gray (films),,Radagast,Maiar,,None
 ,,,,,Olo Proudfoot,,,
+,February 293019,Male,,,Snaga (Two Towers orc),Orc,,
 ,,,,,Sancho Proudfoot,,,
 TA 2904,TA 3005,Male,Brown Gray (movie),,Odo Proudfoot,Hobbits,,Mrs. Proudfoot
 "Late ,Third Age",,Female,,,Mrs. Proudfoot,Hobbits,,Odo Proudfoot
@@ -129,10 +131,11 @@ TA 2832,TA 2930,Male,,,Isengrim Took III,Hobbits,,Not married
 TA 2842,TA 2946,Male,,,Isembold Took,Hobbits,,Unnamed wife 
 "Before the creation of ,Arda",Immortal,Male,,,Irmo,Ainur,,Estë
 "b. ,TA 2990","Early-,Fourth Age",Male,,,Iorlas,Men,,
+,February 293019,Male,,,Snaga (Two Towers orc),Orc,,
 "Late ,Third Age",,Female,,,Ioreth,Men,,
 "Late ,Second Age",,Female,,,Inzilbêth,Men,,Ar-Gimilzôr
 ,,,,,Inigo Baggins,,,
-YT,"Unknown, probably still alive",Male,Probably Golden,,Ingwion,Elf,,
+YT,"Unknown, probably still alive",Male,Probably Golden,,Ingwion,Elves,,
 "YT, and perhaps firstborn",Still Alive,Male,Probably Golden,Tall,Ingwë,Elves,"Valinor,Taniquetil",Unnamed wife
 "Late ,Third Age","Early ,Fourth Age",Male,,,Ingold,Men,,
 "Mid ,First Age",FA 495,Male,,,Indor,Men,,Unnamed wife
@@ -204,7 +207,7 @@ YT,YT 1500,Female,Golden,Tall,Elenwë,Elves,,Turgon
 TA 552,TA 777,Male,,,Elendur of Arnor,Men,Arnor,Unnamed wife
 SA 3299,TA 2,Male,,,Elendur,Men,,Unnamed wife
 SA 3119,SA 3441 ,Male,Brown,"7' 10""",Elendil,Men,"Arnor,Gondor",Unnamed wife
-,Presumably still alive,,,,Elemmírë (elf),Elves,,
+,Presumably still alive,,,,Elemmírë,Elves,,
 ,"FA 510,(presumably)",Male,,,Elemmakil,Elves,,
 FO 43,"Before ,FO 220",Male,Dark,,Eldarion,Men,"Reunited Kingdom,Arnor,Gondor",
 YT,,Female,,,Eldalótë,Elves,,Angrod
@@ -214,9 +217,9 @@ TA 87,TA 339,Male,,,Eldacar (King of Arnor),Men,Arnor,Unnamed wife
 "Early ,Second Age",Early Second Age ,Male,,,Elatan,Men,,Silmariën
 "Mid ,First Age","Between ,FA 455, - ,FA 460",Female,,,Eilinel,Men,,Gorlim
 "Late ,Third Age",Late Third Age,Female,,,Eglantine (Banks) Took,Hobbits,,Paladin Took II
-,FA 538,Male,,,Egalmoth (elf),Elves,,"Unknown, possibly none"
+,FA 538,Male,,,Egalmoth,Elves,,"Unknown, possibly none"
 TA 2626,TA 2743,Male,,,Egalmoth,Men,,Unnamed wife
-,FA 465,Male,,,Edrahil,Elf,,
+,FA 465,Male,,,Edrahil,Elves,,
 ,FA 510,Male,Dark,,Ecthelion of the Fountain,Elves,,
 TA 2886,TA 2984,Male,,,Ecthelion II,Men,,Unnamed wife
 TA 2600,TA 2698,Male,,,Ecthelion I,Men,,Possibly none
@@ -243,7 +246,7 @@ TA 2576,TA 2685,Male,,,Orodreth (Steward),Men,,Unnamed wife
 YT,"FA 495 ,Battle of Tumhalad",Male,Golden,,Orodreth,Elves,Nargothrond,Unnamed wife
 ,,,,,Orleg,,,
 TA 2865,TA 2994,Male,,,Ori,Dwarves,,
-,FA 510,Male,,,Orcobal,Orcs,,
+,FA 510,Male,,,Orcobal,Orc,,
 "Sometime before ,SA 799",,Male,,,Orchaldor,Men,,Ailinel
 TA 1787,TA 1944,Male,,,Ondoher,Men,Gondor,Unnamed wife
 Possibly Firstborn,Still Alive,Male,Silver,,Olwë,Elves,"Tol Eressëa,Alqualondë",Unnamed Wife
@@ -258,7 +261,7 @@ TA 2338,TA 2585,Male,,,Náin II,Dwarves,Grey Mountains,Unnamed wife
 TA 1832,TA 1981,Male,,,Náin I,Dwarves,Khazad-dûm,Unnamed wife
 TA 2665,TA 2799,Male,,,Náin (father of Dáin II Ironfoot),Dwarves,,Unnamed wife
 "Late ,Third Age",,Male,,,Hob Hayward,Hobbits,Shire,
-TA 2846,,Male,,,Hob Gammidge,Hobbit,,Rowan
+TA 2846,,Male,,,Hob Gammidge,Hobbits,,Rowan
 "Late ,Third Age","March 15 ,3019",Male,,Tall,Hirluin,Men,,
 ,,,,,Hild,,,
 "Late ,Third Age",TA 3019,Male,,Tall,Hirgon,Men,,
@@ -279,7 +282,7 @@ FA 419,,Female,,,Hareth,Men,,Galdor
 "Late ,Third Age","March 15 ,3019",Male,,,Harding,Men,,
 FA 470,FA 501,Male,,,Hardang,Men,,None
 FA 441,FA 495,,,,Handir,Men,Brethil,Beldis
-TA 2760,,Male,,,Hamfast of Gamwich,Hobbit,,Unnamed wife
+TA 2760,,Male,,,Hamfast of Gamwich,Hobbits,,Unnamed wife
 "Late ,First Age",Late First Age ,Male,,,Halmir,Men,,Unnamed wife
 SA 711,"Mid ,Second Age",Male,,,Hallatan,Men,,Unnamed wife
 TA 2480,TA 2605,Male,,,Hallas (Steward),Men,,Unnamed wife
@@ -303,7 +306,7 @@ FO 2,,Male,,,Durin VII,Dwarves,Khazad-dum,
 "Late-,Third Age","Early-,Fourth Age",Male,Dark (Decipher Card),Tall,Duinhir,Men,,Unnamed wife
 "Late ,Third Age",TA 3019,Male,,,Duilin,Men,,
 ,FA 465,Male,,,Draugluin,Werewolves,,
-"Late ,First Age",FA 499,Males,,,Dorlas,Men,,
+"Late ,First Age",FA 499,Male,,,Dorlas,Men,,
 TA 2827,,Male,Gray (film),,Dori,Dwarves,,
 ,,Male,,,Dodinas Brandybuck,Hobbits,,
 TA 2328,TA 2435,Male,,,Dior (Steward),Men,,Possibly none
@@ -337,7 +340,7 @@ SA 371,,Female,,,Yávien,Men,,
 "Late-,Third Age","Early-,Fourth Age",Male,,,Wídfara,Men,,Unnamed wife
 "Late ,Third Age",TA 2759,Male,,,Wulf I,Men,Rohan,
 "Late ,First Age",FA 473,Male,,,Borlach,Men,,
-TA 2450,TA 2711,Male,,,Borin,Dwarven,,
+TA 2450,TA 2711,Male,,,Borin,Dwarves,,
 TA 2834,,Male,Ginger,,Bombur,Dwarves,,
 "Unknown, before the coming of Melkor","Unknown, possibly immortal",Male,Brown,,Tom Bombadil,,Old Forest,Goldberry
 ,,,,,Wilimar Bolger,,,
@@ -352,7 +355,7 @@ TA 2897,"Late ,Third Age",Female,,,Jessamine (Boffin) Bolger,Hobbits,,Herugar Bo
 TA 2980,"Early ,Fourth Age",Male,,,Fredegar Bolger,Hobbits,,"unknown, possibly unmarried"
 TA 2942,FO 22,Male,Brown (movie),,Filibert Bolger,Hobbits,,Poppy Chubb-Baggins
 ,,,,,Adalgar Bolger,,,
-,TA 2941,Male,None,"8,4  Body weight = 190kg",Bolg,"Goblin,Orc",,
+,TA 2941,Male,None,"8,4  Body weight = 190kg",Bolg,Orc,,
 ,,,,,Boldog (Character),,,
 TA 2843,,Male,Dark Brown (films),,Bofur,Dwarves,,
 ,,,,,Uffo Boffin,,,
@@ -394,7 +397,7 @@ SA 222,"Early ,Second Age",Male,,,Nolondil,Men,,Unnamed wife
 FA 473,FA 499,Female,Golden,Tall,Niënor,Men,,Túrin Turambar
 SR 1261,,Female,,,Nina Lightfoot,Hobbits,Shire,Theobald Bolger
 YT,TA 1981,Female,Possibly golden,,Nimrodel,Elves,,"Loved ,Amroth"
-"Unknown, possibly sometime during the ,Years of the Trees",FA 506,Female,,,Nimloth (elf),Elves,Doriath,Dior Eluchíl
+"Unknown, possibly sometime during the ,Years of the Trees",FA 506,Female,,,Nimloth,Elves,Doriath,Dior Eluchíl
 "Before the creation of ,Arda",Immortal,Female,,,Nienna,Ainur,"Valinor,Halls of Nienna",None
 unknown,Immortal,Female,,Various,Nielíqui,Ainur,,None
 SA 840,"Mid ,Second Age",Female,,,Nessanië,Men,,
@@ -428,9 +431,9 @@ SA 3318,TA 158,Male,,,Meneldil,Men,Gondor,Unnamed wife
 "Before the creation of ,Arda",Immortal,Male,Dark,Any size by choice,Melkor,Ainur,"Utumno,Angband,Middle-earth,Beleriand",
 "Before the creation of ,Arda","Did not die being a ,Maia returned to ,Valinor, after the death of her husband Thingol",Female,Dark,,Melian,Ainur,Doriath,Thingol
 Around FA 450 ,,Female,,,Meleth,Men,,Agathor
-3019,"February 29 ,3019",Male,Black (film),,Mauhúr,Uruk-hai,"Isengard,Saruman",none
+3019,"February 29 ,3019",Male,Black (film),,Mauhúr,Orc,"Isengard,Saruman",none
 TA 2890,TA 2941,Male,Auburn (film),"Tall (6'4"")",Master of Laketown,Men,Lake-town,
-SR 1182,,Male,,,Marroc Brandybuck,Hobbit,,Unnamed wife
+SR 1182,,Male,,,Marroc Brandybuck,Hobbits,,Unnamed wife
 SR 1343,,Male,,,Marmadas Brandybuck,Hobbits,,Unnamed wife
 "Mid-,Third Age",Mid-Third Age ,Male,,,Marhwini,Men,,Unnamed wife
 "Mid ,Third Age",TA 1856,Male,,,Marhari,Men,,Unnamed wife
@@ -458,7 +461,7 @@ TA 2810,,Male,,,Holman Greenhand,Hobbits,,
 TA 2859,,Male,,,Hending Greenhand,Hobbits,,
 TA 2851,,Male,,,Halfred Greenhand,Hobbits,,
 TA 2854,,Male,,,Erling Greenhand,Hobbits,,
-,"July ,2941",Male,Grey/white strands of hair (film),About nine feet (film),Great Goblin,Orcs,,
+,"July ,2941",Male,Grey/white strands of hair (film),About nine feet (film),Great Orc,Orc,,
 "Late ,First Age",FA 460,Male,,,Gorlim,"Men,Wraith",,Eilinel
 TA 2668,TA 2741,Male,,,Gram,Men,Rohan,Unnamed wife
 ,"March 15, 3019 (film)",Male,"white/gray, possibly light brown (film)","5'9"" - 6'4"" (film)",Gothmog (Lieutenant of Morgul),Orc,"Minas Morgul,the Witch-King",None
@@ -468,13 +471,13 @@ SR 1134,SR 1236,Male,,,"Gormadoc ""Deepdelver"" Brandybuck",Hobbits,Buckland,Mal
 TA 2274,,Male,,,Gorhendad (Oldbuck) Brandybuck,Hobbits,,Unnamed wife
 ,,,,,Gorgol,,,
 TA 2908,"Before ,TA 3001",Male,,,Gorbulas Brandybuck,Hobbits,,Unnamed wife
-,"March 14 ,3019, slain by ,Shagrat",Male,black,medium,Gorbag,"Uruk-hai,Orc",Cirith Ungol,
+,"March 14 ,3019, slain by ,Shagrat",Male,black,medium,Gorbag,Orc,Cirith Ungol,
 ,,,,,Bell (Goodchild) Gamgee,,,
 ,,,,,Togo Goodbody,,,
 ,,,,,Lily (Baggins) Goodbody,,,
 TA 2430,"March 25 ,3019",Male,,,Gollum,Hobbits,,
-"Unknown, before ,TA 2700",TA 2747,Male,,,Golfimbul,"Orc,Goblin",Mount Gram,None
-,,Female,,,Hanna (Goldworthy) Brandybuck,Hobbit,,Madoc Brandybuck
+"Unknown, before ,TA 2700",TA 2747,Male,,,Golfimbul,Orc,Mount Gram,None
+,,Female,,,Hanna (Goldworthy) Brandybuck,Hobbits,,Madoc Brandybuck
 TA 2619,TA 2699,Male,,,Goldwine,Men,Rohan,
 ,,,,,Goldilocks (Gardner) Took,,,
 "Late ,Third Age",,Male,,,Golasgil,Men,,
@@ -487,7 +490,6 @@ TA 2783,FO 15,Male,"Red, later White",,Glóin,Dwarves,,Unnamed wife
 "Unknown, late fifth or sixth century ,First Age",,Male,,,Glirhuin,Men,,
 Presumably after Morgoth's return to Angband,FA 501,Male,None,Gigantic,Glaurung,Dragons,,None
 TA 2732,TA 2770,Male,,,Girion,Men,,Unnamed wife
-,,,,,Gimli (Elf),,,
 TA 2879,"Unknown (Departed to ,Aman ,FO 120,)",Male,Auburn,,Gimli,Dwarves,,
 SA 2630,,Male,,,Gimilzagar,Men,,
 SA 3044,SA 3243,Male,,,Gimilkhâd,Men,,Unnamed wife
@@ -545,7 +547,7 @@ FA 262,FA 355,Male,,,Bëor,Men,,Unnamed wife
 ,,,,,Mosco Burrows,,,
 TA 2974,"November 3 ,3019",Male,Black,,Gríma Wormtongue,Men,,
 "Mid-,Second Age","March 15 ,3019",Male,"Brown, graying, later white","7' 1"" (2.13 metres)",Witch-king of Angmar,"Men,Wraith","Angmar,Minas Morgul,Osgiliath",
-TA 2800,,Male,,,Wiseman Gamwich,Hobbit,,Unnamed wife
+TA 2800,,Male,,,Wiseman Gamwich,Hobbits,,Unnamed wife
 "Late ,Third Age","Early ,TA 3019",Male,,,Willie Banks,Hobbits,Bree,
 ,,,,,Wife of Barach,,,
 ,,,,,Widow Rumble,,,
@@ -578,7 +580,7 @@ Before the creation of Arda,Immortal,Female,,,Vairë,Ainur,"Valinor,Halls of Man
 "Mid ,First Age",FA 473,Male,,,Uldor,Men,,
 "Early ,Second Age",Mid Second Age ,Male,,,Ulbar,Men,,Unnamed wife
 "Before the creation of ,Arda",Immortal,Female,,,Uinen,,,Ossë
-3019,February 293019,Male,Dark (movie),"6' 6"" (movie)",Uglúk,Uruk-hai,Isengard,None
+3019,February 293019,Male,Dark (movie),"6' 6"" (movie)",Uglúk,Orc,Isengard,None
 ,3019,Male,,,Ufthak,Orc,Cirith Ungol,None
 TA 2815,TA 2914,Male,,,Túrin II,Men,,Unnamed wife
 TA 2165,TA 2278,Male,,,Túrin I,Men,,Unnamed wife
@@ -590,7 +592,9 @@ TA 397,TA 667,Male,,,Turambar,Men,Gondor,Unnamed wife
 FA 472,None; sailed into the West and was accounted amongst the Eldar,Male,Golden,Tall,Tuor,Men,,Idril Celebrindal
 YT,,Male,,,Tulkastor,Elves,,Unnamed wife
 "Before the creation of ,Arda",Immortal,Male,Golden,,Tulkas,Ainur,"Valinor,House of Tulkas",Nessa
-YT,,Male,"Leaf, twig and moss like",15'4,Treebeard,"Ents,Onodrim",,Fimbrethil
+YT,,Male,"Leaf, twig and moss like",15'4,Treebeard,Ents,,Fimbrethil
+YT,,Male,"Leaf, twig and moss like",15'4,Treebeard,Ents,,Fimbrethil
+YT,,Male,"Leaf, twig and moss like",15'4,Treebeard,Ents,,Fimbrethil
 TA 2890,TA 2981,Male,,,Sigismond Took,Hobbits,,Unnamed wife
 SR 1256,,Female,,,Rosa (Baggins) Took,Hobbits,,Hildigrim Took
 TA 2976,Fourth Age,Male,,,Beregond (Captain),Men,,Unnamed wife
@@ -624,13 +628,14 @@ TA 2925,TA 3007,Male,Brown (film),"1.76m / 5'9"" (film)",Bain,Men,Dale,Unnamed w
 TA 2948,,Male,,,Porto Baggins,Hobbits,,
 TA 2946,,Male,,,Ponto Baggins II,Hobbits,,Unnamed wife
 ,,,,,Ponto Baggins I,,,
+YT,,Male,"Leaf, twig and moss like",15'4,Treebeard,Ents,,Fimbrethil
 TA 2816,TA 2911,Male,,,Ponto Baggins,Hobbits,,Mimosa Bunce
 ,,,,,Polo Baggins,,,
 TA 2950,,Female,,,Peony (Baggins) Burrows,Hobbits,,Milo Burrows
 ,,,,,Pansy Baggins,,,
 ,,,,,Man in the Moon,,,
 TA 1144,TA 1349,Male,,,Malvegil,Men,Arthedain,Unnamed wife
-,,Female,,,"Malva ""Headstrong"" Brandybuck",Hobbit,,Gormadoc Brandybuck
+,,Female,,,"Malva ""Headstrong"" Brandybuck",Hobbits,,Gormadoc Brandybuck
 TA 895,TA 1110,Male,,,Mallor,Men,"Arthedain,Arnor",Unnamed wife
 "Mid ,Third Age",Mid Third Age ,Male,"Dark, later grey ",,Malbeth the Seer,Men,,"Unknown, possible none"
 ,,,,,Malantur,,,
@@ -649,8 +654,8 @@ YT 1200,FA 503,Female,Black,,Lúthien,"Elves,Maiar",,Beren Erchamion
 "Late ,Third Age",TA 2994,Male,,,Lóni,Dwarves,,
 TA 2752,TA 2842,Male,,,Brytta Léofa,Men,Rohan,Unnamed wife
 TA 2459,TA 2501,Male,,,Léod,Men,,Unnamed wife
-"Before the creation of ,Arda",First Age,Male,Mane of red flame,,Lungorthin,Balrog,,
-" ,3019",February 293019,Male,Dark,6'1 (film),Lugdush,Uruk-hai,,
+"Before the creation of ,Arda",First Age,Male,Mane of red flame,,Lungorthin,"Maiar,Balrogs",,
+" ,3019",February 293019,Male,Dark,6'1 (film),Lugdush,Orc,,
 TA 2999,,Female,,,Lothíriel,Men,Rohan,omer
 "Late ,First Age",Late First Age ,Male,,,Lorgan,Men,,
 "Late ,Second Age",Late Second Age ,Female,,,Lindórië,Men,,Unknown husband
@@ -673,15 +678,18 @@ Before the the Shaping of Arda,"January 253019 ,Battle of the Peak immortal",Mal
 ,,,,,Gamil Zirak,,,
 TA 2976,,Female,,,May Gamgee,Hobbits,,
 TA 2965,,Male,,,Hamson Gamgee,Hobbits,,None
-TA 2926,FO 7 (SR 1428),Male,"Brown, later gray","1.2m (3'11"")",Hamfast Gamgee,Hobbit,,Bell Goodchild
+TA 2926,FO 7 (SR 1428),Male,"Brown, later gray","1.2m (3'11"")",Hamfast Gamgee,Hobbits,,Bell Goodchild
 TA 2969,,Male,,,Halfred Gamgee,Hobbits,,
 FO 2,FO ,Male,,,Frodo Gardner,Hobbits,,Unnamed wife
 TA 2972,FO 54,Female,,,Daisy Gamgee I,Hobbits,,
 ,,,,,Bilbo Gamgee,,,
+,"March ,3019",Male,,,Lagduf,Orc,,
 ,,,,,Halfast Gamgee,,,
 ,,,,,Merry Gamgee,,,
 ,,Male,,,Galion,Elves,,
+,"March ,3019",Male,,,Lagduf,Orc,,
 ,,Male,,,Galdor of the Tree,Elves,,
+,"March ,3019",Male,,,Lagduf,Orc,,
 ,,Male,Golden (movie),6'3 (movie),Galdor of the Havens,Elves,,
 FA 417,FA 462,Male,,Tall,Galdor,Men,,Hareth
 ,,,,,Galar,,,
@@ -699,7 +707,7 @@ TA 2552,TA 2589,Male,,,Frór,Dwarves,,
 TA 2594,TA 2680,Male,,,Fréawine,Men,Rohan,
 TA 2726,TA 2798,Male,,,Fréaláf Hildeson,Men,Rohan,Unnamed wife
 TA 2570,TA 2659,Male,,,Fréa,Men,Rohan,Unnamed wife
-"Late ,Third Age",November 102994,Male,,,Frár,Dwarf,,
+"Late ,Third Age",November 102994,Male,,,Frár,Dwarves,,
 TA 1940,TA 2001,Male,,,Frumgar,Men,,Unnamed wife
 TA 2751,TA 2799,Male,,,Frerin,Dwarves,,
 TA 2698,TA 2754,Male,Dark,,Freca,Men,,Unnamed wife
@@ -720,7 +728,7 @@ TA 1930,TA 2031,Male,,,Bucca of the Marish,Hobbits,,
 ,,,,,Broncho Stonecrow,,,
 TA 2857,,Female,,,Sapphira (Brockhouse) Boffin,Hobbits,,Uffo Boffin
 "Mid ,First Age",Late First Age ,Male,,,Bregor,Men,,Unnamed wife
-TA 2913,TA 3012,Female,,,Asphodel (Brandybuck) Burrows,Hobbit,,Rufus Burrows
+TA 2913,TA 3012,Female,,,Asphodel (Brandybuck) Burrows,Hobbits,,Rufus Burrows
 ,,,,,Brodda,,,
 "Late ,First Age",FA 455,Male,,,Bregolas,Men,,Unnamed wife
 TA 2512,TA 2570,Male,,,Brego,Men,Rohan,Unnamed wife
@@ -732,10 +740,10 @@ TA 2860,TA 2960,Female,,,Mirabella (Took) Brandybuck,Hobbits,,Gorbadoc Brandybuc
 TA 2948,,Male,,,Seredic Brandybuck,Hobbits,,Hilda Bracegirdle
 ,,,,,Merimac Brandybuck,,,
 ,,,,,Orgulas Brandybuck,,,
-TA 2982,FO 65,Male,Golden yellow (film),"1.38m (4'6"")",Meriadoc Brandybuck,Hobbit,,Estella (Bolger) Brandybuck
+TA 2982,FO 65,Male,Golden yellow (film),"1.38m (4'6"")",Meriadoc Brandybuck,Hobbits,,Estella (Bolger) Brandybuck
 TA 2983,"Early-,Fourth Age",Female,Dark Brown,,Mentha Brandybuck,Hobbits,,
 SR 1385,,Female,,,Melilot Brandybuck,Hobbits,,
-SR 1175,SR 1277,Male,,,Madoc Brandybuck,Hobbit,Buckland,Hanna Goldworthy
+SR 1175,SR 1277,Male,,,Madoc Brandybuck,Hobbits,Buckland,Hanna Goldworthy
 ,,,,,Ilberic Brandybuck,,,
 ,,,,,Gorbadoc Brandybuck,,,
 ,,,,,Marmadoc Brandybuck,,,
@@ -777,7 +785,7 @@ TA 2817,TA 2923,Female,,,Adamanta (Chubb) Took,Hobbits,,"Gerontius ""The Old"" T
 ,,,,,Ferdibrand Took,,,
 TA 2880,TA 2982,Male,,,Adalgrim Took,Hobbits,,Unnamed wife
 ,,,,,Everard Took,,,
-TA 2701,TA 2800,Male,,"1.35m (4'5"")",Bandobras Took,Hobbit,,Unnamed wife 
+TA 2701,TA 2800,Male,,"1.35m (4'5"")",Bandobras Took,Hobbits,,Unnamed wife 
 TA 2666,TA 2759,Male,,,Isumbras Took III,Hobbits,,Unnamed wife
 TA 2620,TA 2722,Male,,,Isengrim Took II,Hobbits,,Unnamed wife
 TA 2878,TA 2980,Male,,,Fortinbras Took II,Hobbits,,Lalia Clayhanger
@@ -803,7 +811,7 @@ TA 2746,"November 23, TA 2941",Male,,,Thorin II Oakenshield,Dwarves,Ered Luin,
 TA 2035,TA 2289,Male,,,Thorin I,Dwarves,"Lonely Mountain,Grey Mountains",Unnamed wife
 YT 1050,FA 502,Male,Silver,"Tallest of the Elven-folk, 8'2""",Thingol,Elves,Doriath,Melian
 TA 2905,TA 2980,Male,,,Thengel,Men,Rohan,Morwen Steelsheen
-Second Age,"Sometime after the ,War of the Last Alliance",Male,,Tall,The King of the Dead,"Men,Undead","White Mountains,Paths of the Dead",
+Second Age,"Sometime after the ,War of the Last Alliance",Male,,Tall,The King of the Dead,"Men,UnF","White Mountains,Paths of the Dead",
 TA 1516,TA 1636,Male,,,Telemnar,Men,Gondor,Unnamed wife
 First Age,First Age,Male,,,Telchar,Dwarves,,
 "Unknown, awakened in the ,Years of the Trees",,Female,,,Tatië,Elves,,Tata
@@ -818,19 +826,19 @@ TA 1577,TA 1798,Male,,,Tarondor,Men,Gondor,Unnamed wife
 "After ,TA 654","Before ,TA 913",Male,,,Tarciryan,Men,,Unnamed wife
 TA 2807,TA 2900,Male,,,Mungo Baggins,Hobbits,,Laura Grubb
 ,,,,,Largo Baggins,,,
-"22 September ,TA 2968","Unknown (Last sighting ,September 29 ,3021,) (,SR 1421,)",Male,Brown,"1.06m (3'6"")",Frodo Baggins,Hobbit,,
+"22 September ,TA 2968","Unknown (Last sighting ,September 29 ,3021,) (,SR 1421,)",Male,Brown,"1.06m (3'6"")",Frodo Baggins,Hobbits,,
 TA 2864,TA 2960,male,,,Fosco Baggins,Hobbits,,Ruby Bolger
 TA 2911,TA 3009,Male,,,Dudo Baggins,Hobbits,,Unnamed wife
 TA 2908,TA 2980,Male,,,Drogo Baggins,Hobbits,,Primula Brandybuck
 ,,,,,Dora Baggins,,,
 ,,,,,Bingo Baggins,,,
 ,,,,,Chica (Chubb) Baggins,,,
-TA 2846,TA 2926,Male,,,Bungo Baggins,Hobbit,,
+TA 2846,TA 2926,Male,,,Bungo Baggins,Hobbits,,
 TA 2772,TA 2871,Female,,,Berylla (Boffin) Baggins,Hobbits,,Balbo Baggins
 TA 2852,TA 2934,Female,Black,,Belladonna (Took) Baggins,Hobbits,,Bungo Baggins
 TA 2767,TA 2858,Male,,,Balbo Baggins,Hobbits,,Berylla (Boffin) Baggins
-TA 2981,"Early-,Fourth Age",Female,Blonde,,Angelica Baggins,Hobbit,,
-,TA 2799,Male,none,8'5,Azog,Orcs,"Moria,Mount Gundabad",
+TA 2981,"Early-,Fourth Age",Female,Blonde,,Angelica Baggins,Hobbits,,
+,TA 2799,Male,none,8'5,Azog,Orc,"Moria,Mount Gundabad",
 FA 214,FA 473,Male,,,Azaghâl,Dwarves,,
 SA 395,,Male,,,Axantur,Men,,Unnamed wife
 "Before the creation of ,Arda",Immortal,Male,,,Aulë,Ainur,,Yavanna
@@ -888,7 +896,7 @@ TA 2994,,Male,,,Amrothos,Men,,
 ,,,,,Andvír,,,
 ,TA 1981,Male,Golden,,Amroth,Elves,Lórien,Nimrodel
 Years of the Trees,"YT 1497 ,Losgar",Male,Dark red,,Amrod,Elves,,None
-Years of the Trees,FA 538,Male,Dark red,,Amras,Elf,Estolad,None
+Years of the Trees,FA 538,Male,Dark red,,Amras,Elves,Estolad,None
 TA 726,TA 946,Male,,,Amlaith,Men,Arthedain,Unnamed wife
 ,,,,,Amlach,,,
 "Sometime during ,Years of the Trees, or the ,First Age",SA 3434,Male,,,Amdír,Elves,Lórien,Unnamed wife

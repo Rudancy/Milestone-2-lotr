@@ -388,6 +388,39 @@
 
     <!---------------------------------------------------------------------------the movies, data graphs begin --------------------->
 
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="sub-heading">
+                    <h2> The Lord of The Rings Character Data </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="sub-sub-heading">
+                    <h3>Character Data</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <h3>Character Genders</h3>
+                    <div id="gender"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <h3>Character Race</h3>
+                    <div id="race"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---------------------------------------------------------------------------the characters --------------------->
 
     <section>
         <div class="container">
@@ -434,41 +467,50 @@
 
     <!---------------------------------------------------------------------------the movies, data graphs end --------------------->
 
-    <!---------------------------------------------------------------------------the characters --------------------->
     <section>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="sub-heading">
-                    <h2> The Lord of The Rings Character Data </h2>
+                    <h2> The Lord of The Rings Word Data </h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="sub-sub-heading">
-                    <h3>Character Data</h3>
+                    <h3>Word data</h3>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="row justify-content-center">
             <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Character Genders</h3>
-                <div id="gender"></div>
-
+                <h3>Total Words In the Films</h3>
+                <div id="total_words"></div>
             </div>
-    </section>
+            <div class="col-12-sm col-6-md col-6-lg">
+                <h3>Average Words Spoken By Race</h3>
+                <div id="average_words_spoken_by_race"></div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12-sm col-6-md col-6-lg">
+                <h3>Total Words by Character</h3>
+                <div id="character_words"></div>
+            </div>
+        </div>
+        
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="assets/js/d3.min.js"></script>
-    <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
-    <script type="text/javascript" src="assets/js/dc.min.js"></script>
-    <script type="text/javascript" src="assets/js/queue.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/character.js"></script>
-    <script type="text/javascript" src="assets/js/movie.js"></script>
-
+        <script type="text/javascript" src="assets/js/d3.min.js"></script>
+        <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
+        <script type="text/javascript" src="assets/js/dc.min.js"></script>
+        <script type="text/javascript" src="assets/js/queue.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/character.js"></script>
+        <script type="text/javascript" src="assets/js/movie.js"></script>
+        <script type="text/javascript" src="assets/js/words.js"></script>
 </body>
