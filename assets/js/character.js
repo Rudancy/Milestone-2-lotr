@@ -27,14 +27,16 @@ function gender(ndx) {
     var group = dim.group();
 
     dc.pieChart('#gender')
-        .width(300)
-        .height(500)
+        .width(400)
+        .height(400)
         .radius(600)
         .innerRadius(30)
         .transitionDuration(1500)
         .dimension(dim)
+        .externalRadiusPadding(60)
+        .externalLabels(40)
+        .drawPaths(true)
         .group(group)
-        .legend(dc.legend().x(320).y(20).itemHeight(15).gap(5))
         .ordinalColors(['#5896ff', '#ffc158']);
 
 }
@@ -59,7 +61,7 @@ function race(ndx) {
     var group = dim.group();
 
     dc.pieChart('#race')
-        .height(500)
+        .height(400)
         .width(400)
         .radius(600)
         .innerRadius(30)
@@ -70,11 +72,10 @@ function race(ndx) {
         .externalLabels(40)
         .drawPaths(true)
         .minAngleForLabel(1)
-
         .filter([
-            ['Hobbits', 'Men', 'Ents', 'Elves', 'Orc', 'Ainur', 'Dwarves', 'Ainur']
+            ['Dwarves', 'Men', 'Hobbits', 'Elves', 'Ents', 'Ainur', 'Orc']
         ])
-
+        
         .ordinalColors(['#5896ff', '#ffc158', '#5896ff', '#ffc158', '#5896ff', '#ffc158']);
 
 

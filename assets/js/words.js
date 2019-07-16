@@ -7,8 +7,8 @@ function makeGraphs(error, lotrData) {
 
 
     number_of_words_per_film(ndx);
-    average_words(ndx);
     words_by_character(ndx);
+    total_times_race_speaks(ndx);
     dc.renderAll();
 
 }
@@ -19,7 +19,7 @@ function number_of_words_per_film(ndx) {
     var group = dim.group().reduceSum(dc.pluck('Words'));
 
     dc.barChart('#total_words')
-        .width(400)
+        .width(300)
         .height(300)
         .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(dim)
@@ -28,19 +28,43 @@ function number_of_words_per_film(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel('Movies')
+        .renderHorizontalGridLines(true)
+        .yAxisLabel('Number of words')
         .yAxis().ticks(15);
 
 }
 
 
+function total_times_race_speaks(ndx) {
+    var dim = ndx.dimension(dc.pluck('Race'));
+    var group = dim.group();
+
+    dc.barChart('#total_times_spoken_by_race')
+        .width(300)
+        .height(300)
+        .margins({ top: 10, right: 60, bottom: 100, left: 60 })
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .xAxisLabel("Total Times Each Race Has Spoken")
+        .yAxisLabel('Times Spoken')
+        .renderHorizontalGridLines(true);
+        
+}
+
+
+
+
 function words_by_character(ndx) {
     var dim = ndx.dimension(dc.pluck('Character'));
 
-    var group = dim.group().reduceSum(dc.pluck('Words'))
+    var group = dim.group().reduceSum(dc.pluck('Words'));
 
     dc.barChart('#character_words')
         .width(1000)
-        .height(800)
+        .height(500)
         .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(dim)
         .group(group)
@@ -48,57 +72,10 @@ function words_by_character(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel('Characters')
+        .renderHorizontalGridLines(true)
+        .yAxisLabel('Times Spoken')
         .yAxis().ticks(15);
 
 
-
-}
-
-
-function average_words(ndx) {
-
-    var dim = ndx.dimension(dc.pluck('Race'))
-
-
-    function add_item(p, v) {
-        p.count++;
-        p.total += v.Words;
-        p.average = p.total / p.count;
-        return p;
-    }
-
-    function remove_item(p, v) {
-        p.count--;
-        if (p.count == 0) {
-            p.total = 0;
-            p.average = 0;
-        }
-        else {
-            p.total -= v.Words;
-            p.average = p.total / p.count;
-        }
-        return p;
-    }
-
-    function initialise() {
-        return { count: 0, total: 0, average: 0 };
-    }
-
-    var average_words_group = dim.group().reduce(add_item, remove_item, initialise);
-
-
-
-    dc.barChart('#average_words_spoken_by_race')
-        .height(500)
-        .width(500)
-        .dimension(dim)
-        .group(average_words_group)
-        .valueAccessor(function(d) {
-            return d.value.average;
-        })
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xAxisLabel('Characters')
-        .yAxis().ticks(15);
 
 }

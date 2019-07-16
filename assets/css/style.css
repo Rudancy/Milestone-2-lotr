@@ -31,39 +31,57 @@
 }
 
 
+/*----------------------------------------Nav Bar Styling---------------*/
+
+.navbar {
+    margin-bottom: 0px;
+
+    border-radius: 25px;
+    height: 20px;
+}
+
+.navbar-default {
+    background-color: #262221;
+    border-color: #f8bc56;
+    ;
+}
+
+.btn-group>.btn:first-child {
+    margin-left: 0;
+    color: #f8bc56;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #f8bc56;
+    white-space: nowrap;
+    font-size: large;
+}
+
+/*---------------------------------------- fa styling----------*/
+
+.fa-info {
+    padding-right: 15px;
+}
+
 /*---------------------------------------- pie chart styling----------*/
 
-
-.dc-chart .pie-path{
-    stroke:gold;
+.dc-chart .pie-path {
+    stroke: gold;
 }
 
 .dc-chart .pie-slice.external {
-    fill: #eb0e0e;
+    fill: #FFEB3B;
 }
 
 
 
 
-
-thumbnail the-ring {
-    text-align: center;
-}
-
-h1,
-.h1 {
-    font-size: 5rem;
-    color: #ffc158;
-    text-align: center;
-    padding-bottom: 14px;
-    padding-top: 15px;
-    padding-right: 36px;
-    padding-left: 10px;
-    font-family: 'Tangerine', cursive;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
+/*---------------------------------------- pie chart styling end----------*/
 
 h2,
 h3,
@@ -77,22 +95,93 @@ h4 {
     padding-bottom: 25px;
     margin-bottom: 10px;
 
+
 }
+
+#main-header {
+
+    font-size: 5rem;
+    color: #ffc158;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-right: 36px;
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #262221;
+    border-radius: 25px;
+    margin-top: 55px;
+    ;
+
+
+}
+
+
+
+#primary-heading-realms {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Tangerine', cursive;
+    color: #ffc158;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    background-color: #262221;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#secondary-heading-realms {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Tangerine', cursive;
+    color: #ffc158;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: #262221;
+    border-radius: 25px;
+}
+
+
+.modal-heading {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Tangerine', cursive;
+    color: #ffc158;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-bottom: 25px;
+    background-color: #262221;
+    border-radius: 25px;
+}
+
+
+
+
+/* --------------------- header font sizes---------------------*/
 
 h4 {
-    font-size: 66px;
+    font-size: 50px;
 }
 
-h3 {
-    font-size: 50px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 
 h2 {
-    font-size: 80px;
+    font-size: 60px;
+    background-color: #262221;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+
+/* --------------------- header font sizes end---------------------*/
 
 img {
     padding-left: 10px;
@@ -135,11 +224,13 @@ img {
 
 g text {
     fill: #ffc158;
+    font-size: 13px;
 }
 
 
 g.axis.x text {
     transform: rotate(-45deg) translate(-60px, 0px);
+    font-size: 10px;
 }
 
 
@@ -159,8 +250,8 @@ g.axis.x text {
 #hobbit-pic,
 #ent-pic {
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     padding: 4px;
     line-height: 1.42857143;
     background-color: transparent;
@@ -186,7 +277,7 @@ g.axis.x text {
 
 }
 
-.character-graph-section {
+.bg-realms {
     background: url(../images/elven-home.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -198,94 +289,105 @@ g.axis.x text {
     min-height: 100vh;
 }
 
-.thumbnail {
+.bg-data {
+    background-color: #262221;
+    border-radius: 25px;
+    background-color: #262221;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+#character-bg {
+    background: url(../images/character-pic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    padding-bottom: 30px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#character-bg .bg-data {}
+
+#film-bg {
+    background: url(../images/movie-pic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    padding-bottom: 30px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#film-bg .bg-data {}
+
+#word-bg {
+    background: url(../images/word-pic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    padding-bottom: 30px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#word-bg .bg-data {}
+
+
+
+
+/* --------------------- bg image end---------------------*/
+
+/* --------------------- thumbnail style---------------------*/
+
+thumbnail the-ring {
     text-align: center;
+}
+
+
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
     background-color: transparent;
     border: 1px solid transparent;
-    background-color: none;
-    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    text-align: center;
+
 }
+
 
 thumbnail img {
     text-align: center;
+    filter: grayscale(100%);
+    transition: transform 2s;
+}
+
+.thumbnail img:hover {
+    filter: grayscale(0);
+
+    border-color: #f07f03;
 }
 
 
 
+/* --------------------- thumbnail style end---------------------*/
 
-
-@media only screen and (min-width: 768px) {
-    h1,
-    .h1 {
-        font-size: 9rem;
-
-        color: #ffc158;
-        text-align: center;
-        padding-bottom: 10px;
-        padding-top: 30px;
-        padding-right: 41px;
-        padding-left: 10px;
-        font-family: 'Tangerine', cursive;
-    }
-
-    .opening-line {
-        text-align: center;
-        font-size: 20px;
-        padding-top: 14px;
-        padding-bottom: 0px;
-    }
-
-
-    #the-ring {
-        width: 250px;
-        height: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        filter: grayscale(50%);
-        opacity: 0.4;
-    }
-
-
-
-    #the-ring-quote-1st-line,
-    #the-ring-quote-2nd-line,
-    #the-ring-quote-3rd-line,
-    #the-ring-quote-4th-line {
-        text-align: center;
-        font-size: 50px;
-        color: #ffc158;
-        padding-top: 10px;
-        font-family: 'Tangerine', cursive;
-        display: none;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        padding-top: 10px;
-        font-size: 24px;
-
-    }
-
-    h4 {
-        font-size: 60px;
-    }
-
-    .modal-content p {
-        font-size: 14px;
-    }
-    #click-text p {
-        text-align: center;
-        font-size: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-
-}
-
+/*@media only screen and (min-width: 768px) {*/
 
 @media only screen and (min-width: 992px) {
 
@@ -309,6 +411,7 @@ thumbnail img {
         opacity: 0.4;
         padding-bottom: 0px;
         margin-top: 15px;
+        display: only;
     }
     #the-ring-quote-1st-line,
     #the-ring-quote-2nd-line,

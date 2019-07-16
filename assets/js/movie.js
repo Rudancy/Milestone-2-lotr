@@ -39,14 +39,16 @@ function run_time(ndx) {
 
     dc.barChart('#runtime')
         .width(400)
-        .height(300)
+        .height(400)
         .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
+        .renderHorizontalGridLines(true)
         .xAxisLabel('Movies')
+        .yAxisLabel('In Minutes')
         .yAxis().ticks(10);
 
 }
@@ -77,7 +79,7 @@ function budgets(ndx) {
 
     dc.barChart('#budgets')
         .width(400)
-        .height(300)
+        .height(400)
         .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
@@ -85,6 +87,8 @@ function budgets(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel('Movies')
+        .renderHorizontalGridLines(true)
+        .yAxisLabel('In Millions')
         .yAxis().ticks(10);
 
 }
@@ -115,7 +119,7 @@ function revenue(ndx) {
 
     dc.barChart('#revenue')
         .width(400)
-        .height(300)
+        .height(400)
         .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .dimension(minus_series)
         .group(group)
@@ -123,7 +127,11 @@ function revenue(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel('Movies')
-        .yAxis().ticks(10);
+        .renderHorizontalGridLines(true)
+        .yAxisLabel('In Millions')
+        .yAxis().ticks(10)
+        
+        ;
 
 
 }
@@ -212,9 +220,10 @@ function awards(ndx) {
 
     var stackedChart = dc.barChart('#academy');
     stackedChart
-        .width(500)
-        .height(500)
+        .width(400)
+        .height(400)
         .dimension('noAwards')
+        .margins({ top: 10, right: 50, bottom: 100, left: 50 })
         .group(group)
         .stack(awardsNominationsByFilm1, 'The Fellowship of the Ring')
         .stack(awardsNominationsByFilm2, 'The Two Towers')
@@ -224,6 +233,7 @@ function awards(ndx) {
         .stack(awardsNominationsByFilm6, 'The Battle of the Five Armies')
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
+        .yAxisLabel('Number of Awards')
         
         //struggle to get colors right- had to play around and just wing it.
         .colors(d3.scale.ordinal().domain([0, 6])

@@ -9,14 +9,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
+    <!------------------------------------------------------------- Nav Begin ---------------------------->
 
+    <nav class="navbar navbar-default fixed-top">
+        <div class="container-fluid">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Information 
+  </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#main-header">Home</a></li>
+                    <li><a href="#primary-heading-realms">Realms Data</a></li>
+                    <li><a href="#character-heading">Character Data</a></li>
+                    <li><a href="#film-heading">Movie Data</a></li>
+                    <li><a href="#word-heading">Word Data</a></li>
 
-
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 </head>
+<!------------------------------------------------------------- Nav End ---------------------------->
 
 <body>
 
@@ -26,7 +44,40 @@
         <div class="row justify-content-center">
             <div class="col-xs-12">
                 <div>
-                    <h1>The Lord of the Rings Data Dash Board</h1>
+                    <h1 id="main-header"><i class="fas fa-info" style="font-size:30px" data-toggle="modal" data-target="#intro-modal"></i>The Lord of the Rings Data Dash Board</h1>
+                    <!------------------------------------------------ modal--------------------->
+
+                    <div id="intro-modal" class="modal" role="dialog">
+                        <div class="modal-dialog modal-lg">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title">The Data Dash Board</h4>
+                                </div>
+
+
+
+                                <div class="container">
+
+
+                                    <div class="modal-body">
+                                        <p>This data dash board has been created with the intention of turning mundane (yet interesting) numbers into something that is more visual. I have brought together informayion from different parts of the internet
+                                            and have tried to display it in such a way that even a child can understand. But also the key to this site is the ability of the user to interact with it, I hope you enjoy it</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------- modal end------------------------>
+
+
                 </div>
             </div>
         </div>
@@ -58,24 +109,52 @@
 
     <!---------------------------------------------------------------------------faction/race info section begin --------------------->
 
-    <section class="character-graph-section">
+    <section class="bg-realms">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="sub-heading">
-                    <h2> The Inhabitants Of the Lord of the Rings </h2>
+                <div>
+                    <h2 id="primary-heading-realms"><i class="fas fa-info" style="font-size:30px" data-toggle="modal" data-target="#realms-modal"></i> The Inhabitants Of the Lord of the Rings </h2>
+
+                    <!------------------------------------------------ modal--------------------->
+
+                    <div id="realms-modal" class="modal" role="dialog">
+                        <div class="modal-dialog modal-lg">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title">The Realms</h4>
+                                </div>
+
+
+
+                                <div class="container">
+
+
+                                    <div class="modal-body">
+                                        <p>These are the different realms and factions of the world of the Lord of The Rings, click on the image of the characters and information will be brought about the races</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------- modal end------------------------>
+
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="sub-sub-heading">
-                    <h3>Factions and Realms in the Lord Of The Rings</h3>
-                </div>
-            </div>
+
         </div>
         <div class="container">
             <div class="row justify-content-center">
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Orcs</h4>
+                    <h4 class="modal-heading">Orcs</h4>
                     <div class="thumbnail">
                         <img id="ork-pic" class="thumbnail" data-toggle="modal" data-target="#modal-ork" src="assets/images/factions/orc.jpg"></img>
                     </div>
@@ -88,7 +167,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
 
-                                <h4 class="modal-title">Modal Header</h4>
+                                <h4 class="modal-title">Orcs</h4>
                             </div>
 
 
@@ -97,10 +176,9 @@
 
 
                                 <div class="modal-body">
-                                    <p>The Orcs were bred by Melkor in mockery of the Elves, sometime during the Great Darkness.[4][5] John Howe - Orc Swordsman It is unclear exactly when Orcs were created, but it certainly happened before the War for Sake
-                                        of the Elves in his stronghold of Utumno. Whether the Orcs were at this time a capable fighting force against the host of Valinor is not known. But at least some of them survived this war, probably hidden in the
-                                        deep vaults of Angband, and multiplied, waiting for their master. When Melkor (now known as Morgoth) returned to Middle-earth, he created new hordes of Orcs and invaded Beleriand, where the First Battle of Beleriand
-                                        took place. Orcs also fought in Dagor-nuin-Giliath.</p>
+                                    <p>The Orcs were bred by Melkor in mockery of the Elves, sometime during the Great Darkness. It is unclear exactly when Orcs were created, but it certainly happened before the War for Sake of the Elves in his stronghold
+                                        of Utumno. Whether the Orcs were at this time a capable fighting force against the host of Valinor is not known. But at least some of them survived this war, probably hidden in the deep vaults of Angband, and multiplied,
+                                        waiting for their master. When Melkor (now known as Morgoth) returned to Middle-earth, he created new hordes of Orcs and invaded Beleriand, where the First Battle of Beleriand took place. Orcs also fought in Dagor-nuin-Giliath.</p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -115,7 +193,7 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-                    <h4>Ainur</h4>
+                    <h4 class="modal-heading">Ainur</h4>
                     <div class="thumbnail">
                         <img id="ainur-pic" data-toggle="modal" data-target="#modal-ainur" src="assets/images/factions/Ainur.jpg"></img>
                     </div>
@@ -131,12 +209,12 @@
                             </div>
                             <div class="modal-body">
                                 <p>Through the Music of the Ainur, Ilúvatar created a Vision of the World, and explained much of its nature and destiny to them - so the Ainur have much knowledge of the World, but are not omniscient. Then Ilúvatar granted
-                                    the World true being. Many of the Ainur desired to descend into it and form it in readiness for the coming of the Children of Ilúvatar (Elves and Men).[1] Fourteen of these great Ainur became the Valar, or Powers of
-                                    Arda.[2] The fifteenth, Melkor, turned aside from that path and became known as Morgoth, the Dark Enemy.[3] The many lesser Ainur that accompanied the Valar into Arda are known as Maiar.[4] Those Ainur who entered the
-                                    World at its beginning remain bound to it until its end.[1] Though Melkor was eventually thrown into the Void by the others, he is prophesied to return before the end.[5] Little is known of the ultimate future of the
-                                    Ainur, even by themselves, but it is said that, after the great battle at the end of the World, they will make a Second, even greater, Music with the Children of Ilúvatar. The Ainur are angelic beings, nonetheless they
-                                    do possess gender. Those who later descended to Arda took on common male and female forms to appear to the Elves in, and have an inherent male or female gender even when formless. This is because their gender is based
-                                    on their being, which is independent of any physical form they may assume.[1]</p>
+                                    the World true being. Many of the Ainur desired to descend into it and form it in readiness for the coming of the Children of Ilúvatar (Elves and Men). Fourteen of these great Ainur became the Valar, or Powers of Arda.
+                                    The fifteenth, Melkor, turned aside from that path and became known as Morgoth, the Dark Enemy. The many lesser Ainur that accompanied the Valar into Arda are known as Maiar. Those Ainur who entered the World at its
+                                    beginning remain bound to it until its end. Though Melkor was eventually thrown into the Void by the others, he is prophesied to return before the end. Little is known of the ultimate future of the Ainur, even by themselves,
+                                    but it is said that, after the great battle at the end of the World, they will make a Second, even greater, Music with the Children of Ilúvatar. The Ainur are angelic beings, nonetheless they do possess gender. Those
+                                    who later descended to Arda took on common male and female forms to appear to the Elves in, and have an inherent male or female gender even when formless. This is because their gender is based on their being, which
+                                    is independent of any physical form they may assume.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -148,7 +226,7 @@
 
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Dead</h4>
+                    <h4 class="modal-heading">Dead</h4>
                     <div class="thumbnail">
                         <img id="dead-pic" data-toggle="modal" data-target="#modal-dead" src="assets/images/factions/dead.jpg"></img>
                     </div>
@@ -186,7 +264,7 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-                    <h4>Dwarves</h4>
+                    <h4 class="modal-heading">Dwarves</h4>
                     <div class="thumbnail">
                         <img id="dwarf-pic" data-toggle="modal" data-target="#modal-dwarf" src="assets/images/factions/Dwarf.jpg"></img>
                     </div>
@@ -217,7 +295,7 @@
 
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Elves</h4>
+                    <h4 class="modal-heading">Elves</h4>
                     <div class="thumbnail">
                         <img id="elf-pic" data-toggle="modal" data-target="#modal-elf" src="assets/images/factions/elf.jpg"></img>
                     </div>
@@ -238,8 +316,8 @@
                                     bodies grew more slowly. They were considered fully-grown at about a century. They married usually only once in their lives, and their children were often few and far-between. Their most distinguishing characteristic
                                     from the Mortal races was the fact that they were invulnerable to age or disease; unless they were killed by sword or sorrow, they would live to the end of the world. Unlike Men whose fëar (spirits) left Arda when their
                                     bodies died, Elves' fëar were bound to Arda until its ending. If an Elf's hröa (body) died, its fëa would be summoned to the Halls of Mandos, where the Valar could re-embody the Elf in a hröa that was identical to the
-                                    Elf's previous hröa. However, if an Elf committed evil acts during their lifetime and refused to repent, the Valar could delay the Elf's re-embodiment, impose conditions on it, or refuse it altogether.[5][6] An Elf
-                                    could refuse the summons to Mandos or choose to remain disembodied,[5][7] but the Elf's houseless fëa would still be unable to leave Arda.</p>
+                                    Elf's previous hröa. However, if an Elf committed evil acts during their lifetime and refused to repent, the Valar could delay the Elf's re-embodiment, impose conditions on it, or refuse it altogether. An Elf could
+                                    refuse the summons to Mandos or choose to remain disembodied, but the Elf's houseless fëa would still be unable to leave Arda.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -253,7 +331,7 @@
 
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Hobbits</h4>
+                    <h4 class="modal-heading">Hobbits</h4>
                     <div class="thumbnail">
                         <img id="hobbit-pic" data-toggle="modal" data-target="#modal-hobbit" src="assets/images/factions/hobbit.jpg"></img>
                     </div>
@@ -271,8 +349,8 @@
                             <div class="modal-body">
                                 <p>Throughout their history Hobbits had showed unparalleled skill, courage and also endurance and resistance in times of danger and terror. During their Wandering Days Hobbits demonstrated an easiness to adapt to the environments
                                     they visited and adopted the customs and languages of the peoples they were in contact with. In the Shire, they had settled with a closed and comfort-loving lifestyle; they were fond of an unadventurous bucolic life
-                                    of farming, eating, smoking pipe-weed,[7] socializing and talking about genealogies. Hobbits also liked to drink ale in inns, and ate at least six meals a day when they could get them. Every Highday and after noon,
-                                    Hobbits celebrated a small holiday with evening feasts. [8]</p>
+                                    of farming, eating, smoking pipe-weed, socializing and talking about genealogies. Hobbits also liked to drink ale in inns, and ate at least six meals a day when they could get them. Every Highday and after noon, Hobbits
+                                    celebrated a small holiday with evening feasts.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -287,7 +365,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Men</h4>
+                    <h4 class="modal-heading">Men</h4>
                     <div class="thumbnail">
                         <img id="men-pic" data-toggle="modal" data-target="#modal-men" src="assets/images/factions/men.jpg"></img>
                     </div>
@@ -303,7 +381,7 @@
                             </div>
                             <div class="modal-body">
                                 <p>"West, North, and South the children of Men spread and wandered, and their joy was the joy of the morning before the dew is dry, when every leaf is green." ― The Silmarillion, Of Men Men were one of the Kindreds of the
-                                    Children of Ilúvatar. Men were called the Secondborn (or the Second Kindred[6]) by the Elves, their Elder brethren, because they were the last of all the incarnate races to come into being. Though they were born after
+                                    Children of Ilúvatar. Men were called the Secondborn (or the Second Kindred) by the Elves, their Elder brethren, because they were the last of all the incarnate races to come into being. Though they were born after
                                     the other sentient races, Men were destined to inherit and rule Middle-earth.</p>
                             </div>
                             <div class="modal-footer">
@@ -320,7 +398,7 @@
 
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Nazgul</h4>
+                    <h4 class="modal-heading">Nazgul</h4>
                     <div class="thumbnail">
                         <img id="nazgul-pic" data-toggle="modal" data-target="#modal-nazgul" src="assets/images/factions/Nazgul.jpg"></img>
                     </div>
@@ -351,7 +429,7 @@
 
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h4>Ents</h4>
+                    <h4 class="modal-heading">Ents</h4>
                     <div class="thumbnail">
                         <img id="ent-pic" data-toggle="modal" data-target="#modal-ent" src="assets/images/factions/ent.jpg"></img>
                     </div>
@@ -367,9 +445,9 @@
                             </div>
                             <div class="modal-body">
                                 <p>Ents were 14-foot tall creatures like humanoid trees with very thick skin resembling tree bark. They resembled the trees that they shepherded. An individual Ent more or less resembled the specific species of tree that they
-                                    typically guarded or honored, to the point of the personality one might expect from that tree.[6] Thus they varied in height and size, colouring, and n number of fingers and toes. For example, Quickbeam guarded rowan
-                                    trees and thus looked very much like a rowan. There were trees that were awake or half-awake, and some were entish and Ents could awake or talk with some of them. Treebeard aroused some Huorns to destroy Isengard.[15]
-                                    Ents were dwelling in Ent-houses and were nourished by Ent-draughts. They were immortal (although they could be damaged or killed with sufficient force) and along with it, they were deliberate and slow in thought, decision
+                                    typically guarded or honored, to the point of the personality one might expect from that tree. Thus they varied in height and size, colouring, and n number of fingers and toes. For example, Quickbeam guarded rowan trees
+                                    and thus looked very much like a rowan. There were trees that were awake or half-awake, and some were entish and Ents could awake or talk with some of them. Treebeard aroused some Huorns to destroy Isengard.[15] Ents
+                                    were dwelling in Ent-houses and were nourished by Ent-draughts. They were immortal (although they could be damaged or killed with sufficient force) and along with it, they were deliberate and slow in thought, decision
                                     and action. Their slow, long-winded language reflected this; of other languages they preferred Quenya, which they also spoke in an agglutinating, long-winded way like Entish.</p>
                             </div>
                             <div class="modal-footer">
@@ -388,116 +466,235 @@
 
     <!---------------------------------------------------------------------------the movies, data graphs begin --------------------->
 
-    <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="sub-heading">
-                    <h2> The Lord of The Rings Character Data </h2>
+    <section id="character-bg">
+
+        <div class="row justify-content-center">
+            <div id="character-heading">
+                <h2><i class="fas fa-info" style="font-size:30px" data-toggle="modal" data-target="#character-modal"></i> The Lord of The Rings Character Data </h2>
+
+                <!------------------------------------------------ modal--------------------->
+
+                <div id="character-modal" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">The Realms</h4>
+                            </div>
+
+
+
+                            <div class="container">
+
+
+                                <div class="modal-body">
+                                    <p>These two piecharts show that the vast majority of characters in LOTR are male, and that these characters are of as a majority of the race men
+                                    this can be taken in a few different ways, one J R Tolkein was a man, and therefore the majority of his characters are in turn men, or it shows that 
+                                    due to the fact that there are few female characters that they (females) play little part in the stories of the world</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="sub-sub-heading">
-                    <h3>Character Data</h3>
-                </div>
+
+                <!------------------------------------- modal end------------------------>
+
             </div>
         </div>
 
+
+
+
         <div class="container">
+
             <div class="row justify-content-center">
-                <div class="col-12-sm col-6-md col-6-lg">
-                    <h3>Character Genders</h3>
-                    <div id="gender"></div>
+                <div class="bg-data">
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>Character Genders</h3>
+                        <div id="gender"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12-sm col-6-md col-6-lg">
-                    <h3>Character Race</h3>
-                    <div id="race"></div>
+                <div class="bg-data">
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>Character Race</h3>
+                        <div id="race"></div>
+                    </div>
                 </div>
             </div>
 
         </div>
-
+        </div>
+        </div>
     </section>
 
     <!---------------------------------------------------------------------------the characters --------------------->
 
-    <section>
+    <section id="film-bg">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="sub-heading">
-                    <h2> The Lord of The Rings Film Data </h2>
+                <div id="film-heading">
+                    <h2><i class="fas fa-info" style="font-size:30px" data-toggle="modal" data-target="#film-modal"></i> The Lord of The Rings Film Data </h2>
+                 <!------------------------------------------------ modal--------------------->
+
+                <div id="film-modal" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">The Realms</h4>
+                            </div>
+
+
+
+                            <div class="container">
+
+
+                                <div class="modal-body">
+                                    <p>These graphs show both how much the films cost, but also the revenue that each film accumalated in the box office
+                                    it tells us that the amount spent on a film does not mean revenues are increased. It also shows us how many awards and nominations each film recieved.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------------------------- modal end------------------------>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="sub-sub-heading">
-                    <h3>Film Data</h3>
-                </div>
-            </div>
+
         </div>
 
         <div class="container">
 
+
+
             <div class="row justify-content-center">
-                <div class="col-12-sm col-6-md col-6-lg">
-                    <h3>Runtime of the Films</h3>
-                    <div id="runtime"></div>
-                </div>
-                <div class="row justify-content-center">
+                <div class="bg-data">
                     <div class="col-12-sm col-6-md col-6-lg">
                         <h3>Movie Budgets</h3>
                         <div id="budgets"></div>
                     </div>
                 </div>
+                <div class="bg-data">
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>Movie Revenue</h3>
+                        <div id="revenue"></div>
+                    </div>
+                </div>
             </div>
+
         </div>
+
 
         <div class="row justify-content-center">
-            <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Movie Revenue</h3>
-                <div id="revenue"></div>
+            <div class="bg-data">
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <h3>Academy Award Wins</h3>
+                    <div id="academy"></div>
+                </div>
             </div>
-            <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Academy Award Wins</h3>
-                <div id="academy"></div>
+            <div class="bg-data">
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <h3>Runtime of the Films</h3>
+                    <div id="runtime"></div>
+                </div>
             </div>
-        </div>
 
+        </div>
     </section>
 
     <!---------------------------------------------------------------------------the movies, data graphs end --------------------->
-
-    <section>
+    <!---------------------------------------------------------------------------the words, data graphs end --------------------->
+    <section id="word-bg">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="sub-heading">
-                    <h2> The Lord of The Rings Word Data </h2>
+                <div id="word-heading">
+                    <h2><i class="fas fa-info" style="font-size:30px" data-toggle="modal" data-target="#word-modal"></i> The Lord of The Rings Word Data </h2>
+                 <!------------------------------------------------ modal--------------------->
+
+                <div id="word-modal" class="modal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">The Realms</h4>
+                            </div>
+
+
+
+                            <div class="container">
+
+
+                                <div class="modal-body">
+                                    <p>These graphs show us how many times each race, character speaks during the films, as you can see by the information 
+                                    Gandalf speaks the most time, which fits his character as the mover of things in the story. Suprisingly Sam speaks the second most times
+                                    beating Frodo</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------------------------- modal end------------------------>
                 </div>
             </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="bg-data">
+                <div class="container-fluid">
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>The Overall Number times characters Speak In the Films</h3>
+
+
+
+                        <div id="total_words"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-data">
+                <div class="container-fluid">
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>Total Times each Race Speaks</h3>
+                        <div id="total_times_spoken_by_race"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="sub-sub-heading">
-                    <h3>Word data</h3>
+                <div class="bg-data">
+
+                    <div class="col-12-sm col-6-md col-6-lg">
+                        <h3>Total Times Characters Speak</h3>
+                        <div id="character_words"></div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Total Words In the Films</h3>
-                <div id="total_words"></div>
-            </div>
-            <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Average Words Spoken By Race</h3>
-                <div id="average_words_spoken_by_race"></div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12-sm col-6-md col-6-lg">
-                <h3>Total Words by Character</h3>
-                <div id="character_words"></div>
-            </div>
-        </div>
-        
+
+
+
 
 
 
