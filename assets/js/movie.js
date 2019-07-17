@@ -25,7 +25,7 @@ function run_time(ndx) {
             d.RuntimeInMinutes = 0;
             return null;
         }
-        if (d.Name === 'The Hobbit Series') {
+        else if (d.Name === 'The Hobbit Series') {
             d.RuntimeInMinutes = 0;
             return null;
 
@@ -65,11 +65,12 @@ function budgets(ndx) {
             d.BudgetInMillions = 0;
             return null;
         }
-        if (d.Name === 'The Hobbit Series') {
+        else if(d.Name === 'The Hobbit Series') {
             d.BudgetInMillions = 0;
             return null;
 
         }
+
         else {
             return d.Name;
         }
@@ -105,7 +106,7 @@ function revenue(ndx) {
             d.BoxOfficeRevenueInMillions = 0;
             return null;
         }
-        if (d.Name === 'The Hobbit Series') {
+       else if (d.Name === 'The Hobbit Series') {
             d.BoxOfficeRevenueInMillions = 0;
             return null;
 
@@ -130,8 +131,8 @@ function revenue(ndx) {
         .renderHorizontalGridLines(true)
         .yAxisLabel('In Millions')
         .yAxis().ticks(10)
-        
-        ;
+
+    ;
 
 
 }
@@ -148,7 +149,7 @@ function awards(ndx) {
             d.RottenTomatoesScore = 0;
             return null;
         }
-        if (d.Name === 'The Hobbit Series') {
+       else if (d.Name === 'The Hobbit Series') {
             d.AcademyAwardNominations = 0;
             d.AcademyAwardWins = 0;
             d.RottenTomatoesScore = 0;
@@ -234,7 +235,7 @@ function awards(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .yAxisLabel('Number of Awards')
-        
+
         //struggle to get colors right- had to play around and just wing it.
         .colors(d3.scale.ordinal().domain([0, 6])
             .range(['#5896FF', '#ffc158', '#ffc158']))
