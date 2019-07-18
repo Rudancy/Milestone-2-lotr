@@ -114,7 +114,9 @@ function revenue(ndx) {
         else {
             return d.Name;
         }
+    
     });
+
 
     var group = minus_series.group().reduceSum(dc.pluck('BoxOfficeRevenueInMillions'));
 
@@ -130,9 +132,7 @@ function revenue(ndx) {
         .xAxisLabel('Movies')
         .renderHorizontalGridLines(true)
         .yAxisLabel('In Millions')
-        .yAxis().ticks(10)
-
-    ;
+        .yAxis().ticks(10);
 
 
 }

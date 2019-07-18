@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 
 
+
+
+p{
+    color:#ffc158;
+}
+
 /*----------------------- the main heading ---*/
 
 #click-text p {
@@ -426,6 +432,9 @@ thumbnail img {
 
     .modal-content p {
         font-size: 14px;
+        
     }
+
+
 
 }

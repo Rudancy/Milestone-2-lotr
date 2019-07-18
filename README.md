@@ -14,7 +14,31 @@ The users who have interest in facts and knowledge can have an in depth look at 
 
 ## Features
 
-The nav-bar is an important feature and has been created using bootstrap.
+The nav-bar is an important feature and has been created using bootstrap. This means that the Navbar has been fixed to the top of the browsers page, thus giving access to all parts of the website at any point, through the use of anchor tags. The menu is a drop-down and so it takes up less space. 
+
+```html
+  <nav class="navbar navbar-default fixed-top">
+        <div class="container-fluid">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Information 
+  </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#main-header">Home</a></li>
+                    <li><a href="#primary-heading-realms">Realms Data</a></li>
+                    <li><a href="#character-heading">Character Data</a></li>
+                    <li><a href="#film-heading">Movie Data</a></li>
+                    <li><a href="#word-heading">Word Data</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</head>
+```
+
+ 
 
 One of the features I have included is the onclick event targeted at the ring img, the idea behind this was to was to create an initial interactive feature that would draw in the user, on the click event the words slowly fade in as they do on the movie and in the books. This code was created using JQuery.
 
@@ -51,6 +75,8 @@ I have a full picture display background using pictures that have been sourced f
 
  
 
+
+
 Features also include the graphs themselves that have been rendered using d3, dc and crossfilter. This has allowed for information to be taken from a file source, in this case a csv file and then be rendered as an svg. These allow for a lot of interaction between data therefore allowing users to click on certain graph values, these will then be highlighted in other graphs.
 
 ### Future Features
@@ -59,7 +85,7 @@ These include more button functions that allow the user to access additional inf
 
 ## Technologies
 
--  JQuery  library- this allows for manipulation of the DOM speeding up the process of development, instead of using JavaScript 
+- JQuery  library- this allows for manipulation of the DOM speeding up the process of development, instead of using JavaScript 
 
 - D3.js - is a JavaScript library that allows the user to manipulate svg's using HTML and CSS
 
@@ -75,11 +101,15 @@ These include more button functions that allow the user to access additional inf
 
 ## Testing
 
+A HTML validator https://validator.w3.org/nu/#textarea has been used to validate the code.
+
+A JavaScript validator https://jshint.com/ has been used to validate the code.
+
 The website has been tested for responsiveness using Google Chrome Development tools. It has been accessed using a mobile phone and an Ipad to see how the browser reacts to different browser sizes and it is fully functioning (however please not that svgs and d3, dc are not designed tobe responsive or to be used on small screens). This has been achieved through the use of Bootstrap 3 classes and media queries
 
 All graphs have been thoroughly tested for their responsiveness, if one aspect of a graph is clicked on the other graphs respond as they should. 
 
-// however there is a bug that has been thoroughly looked at and that is seemingly unknown for the cause of, when the two towers in the film section is clicked on both the two towers and the hobbit are highlighted. Any suggestions by developers would be very much appreciated the js can be found in movies.js.
+A bug that has been thoroughly looked at and that is seemingly unknown for the cause of is when the 'two towers' in the film section graphs is selected (clicked on), instead of just the 'two towers' data being highlighted responsively by the other graphs in the section  another value is highlighted 'the hobbit' . Any suggestions by developers would be very much appreciated the js can be found in movies.js.
 
 The ring click-event works on multiple browsers and in different browser settings.
 
@@ -108,13 +138,21 @@ function gender(ndx) {
 
 Website was deployed using GitHub, to do this follow these instructions
 
-1.  go to the GitHib repository  
+1. go to the GitHib repository  
 2. under the repositories name click settings
 3. go to GitHub pages (scroll down)
 4. click on the drop-down menu under source and click on master branch
 5. click save
 
+## Credits
 
+Much credit has to go to the members of slack as without their patience in answering questions i would not of been able to do some of the things i have a done.
+
+Credit has to go to the tutor team, Niel, Haley and Nakita for there guidance in fixing bugs
+
+The images where all located on google images, to each of these un-named artists thank you.
+
+A big thank you has to go to the online community stackoverflow, and W3schools who provided lots of information.
 
 
 
