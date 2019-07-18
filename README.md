@@ -6,7 +6,7 @@ This project is about visualisation of information relating to the Lord Of The R
 
 The website is aimed at people various  people, of whom may have multiple interests. First there is fans of lotr  who would like to find out more information about lotr books and films, but do not wish to trawl through rows and columns of information. The idea was to create a single page website that allows a certain level of interactivity to get the viewer to be an active participant in the website. In the mock-ups I decided to create the first section of the website to have a black-background and a single image of the 'ring'. The concept behind this would be for users to be intrigued by such a minimalist introduction to the site and therefore they would want to see more.
 
-![mock-up](C:\Users\Tom\Desktop\lord-of-the-rings-character-data\mock-up.jpg)
+![mock-up](https://github.com/Rudancy/Milestone-2-lotr/blob/master/assets/wireframes/mock-up.jpg)
 
 
 
